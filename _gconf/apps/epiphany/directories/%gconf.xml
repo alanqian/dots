@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="upload" mtime="1336379205" type="string">
+		<stringvalue>~</stringvalue>
+	</entry>
+	<entry name="saveimage" mtime="1336379205" type="string">
+		<stringvalue>~</stringvalue>
+	</entry>
+	<entry name="save" mtime="1336379205" type="string">
+		<stringvalue>~</stringvalue>
+	</entry>
+	<entry name="open" mtime="1336379205" type="string">
+		<stringvalue>~</stringvalue>
+	</entry>
+	<entry name="downloads_folder" mtime="1336379205" type="string">
+		<stringvalue>Downloads</stringvalue>
+	</entry>
+</gconf>

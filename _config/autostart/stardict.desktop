@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/stardict -hide
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=false
+Name[en_US]=stardict
+Name=stardict
+Comment[en_US]=Lookup words
+Comment=Lookup words

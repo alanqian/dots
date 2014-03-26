@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_conn" mtime="1336379208" type="bool" value="true"/>
+	<entry name="file_transfer_default_folder" mtime="1336379208" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="autoconnect" mtime="1336379208" type="bool" value="true"/>
+	<entry name="autoaway" mtime="1336379208" type="bool" value="true"/>
+	<entry name="butterfly_logs_migrated" mtime="1336379208" type="bool" value="true"/>
+</gconf>

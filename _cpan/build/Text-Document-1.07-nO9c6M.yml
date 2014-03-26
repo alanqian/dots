@@ -1,0 +1,55 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: A/AS/ASPINELLI/Text-Document-1.07.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: A/AS/ASPINELLI/Text-Document-1.07.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: ASPINELLI
+  archived: tar
+  build_dir: /home/alan/.cpan/build/Text-Document-1.07-nO9c6M
+  incommandcolor: 1
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1338261961
+  localfile: /home/alan/.cpan/sources/authors/id/A/AS/ASPINELLI/Text-Document-1.07.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1338261960
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1338261961
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      Bit::Vector: 6
+      FileHandle: 2
+  reqtype: c
+  sponsored_mods:
+    Bit::Vector: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1338261919
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1338261919
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1332523763
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1338261961

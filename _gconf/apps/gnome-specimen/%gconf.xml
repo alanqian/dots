@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="preview_text" mtime="1394520898" type="string">
+		<stringvalue>№ ☑ 165 装备数据“工厂”的程序是这样的：弗兰科夫斯基及其大约25人的团队会设计五种类型的电脑来处理
+166 Facebook的大多数工作，即网页服务器、数据库电脑、数据存储系统、新闻馈送服务器以及被称为
+167 “缓存服务器”的电脑，从而加速整体性能的优化。随后，他们会计算出生产每种类型的电脑需要多
+168 少成本，然后从原始设备制造商（OEM）那里购买电脑，前提是原始设备制造商的电脑价格在</stringvalue>
+	</entry>
+	<entry name="preview_size" mtime="1394520898" type="int" value="11"/>
+</gconf>

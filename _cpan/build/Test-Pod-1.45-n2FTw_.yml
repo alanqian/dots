@@ -1,0 +1,59 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Test::Pod
+  CHECKSUM_STATUS: OK
+  ID: D/DW/DWHEELER/Test-Pod-1.45.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: DWHEELER
+  archived: tar
+  build_dir: /home/alan/.cpan/build/Test-Pod-1.45-n2FTw_
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: 1
+    TEXT: NO
+    TIME: 1336110083
+  localfile: /home/alan/.cpan/sources/authors/id/D/DW/DWHEELER/Test-Pod-1.45.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336110082
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336110083
+  modulebuild: 1
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      File::Spec: 0
+      Pod::Simple: 3.05
+      Test::More: 0.62
+    requires:
+      File::Spec: 0
+      Pod::Simple: 3.05
+      Test::Builder::Tester: 1.02
+      Test::More: 0.62
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336110082
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336110082
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1315297348
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.12.4
+time: 1336110083

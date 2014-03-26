@@ -1,0 +1,27 @@
+./template/code_template.vim
+./macros/clewn_mappings.vim
+
+./colors/peaksea.vim
+./colors/ir_black.vim
+./colors/mayansmoke.vim
+./colors/pyte.vim
+
+format.vim
+snipMate.vim
+mru.vim
+clewn.vim
+DoxygenToolkit.vim
+taglist.vim
+ctag,cscope
+NERD_commenter.vim
+google.vim
+omnicppcomplete
+
+vimwiki.vim
+json.vim
+
+bridge_utf-8.vim
+
+comdg.vim
+some snippets
+

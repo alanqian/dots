@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="priority" mtime="1336379208" type="int" value="7"/>
+	<entry name="active" mtime="1336379208" type="bool" value="true"/>
+</gconf>

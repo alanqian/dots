@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="export_file" mtime="1375497192" type="string">
+		<stringvalue>/home/alan/.stardict/dic.txt</stringvalue>
+	</entry>
+	<entry name="only_export_word" mtime="1375497190" type="bool" value="false"/>
+	<entry name="hide_floatwin_when_modifier_key_released" mtime="1375497132" type="bool" value="false"/>
+	<entry name="scan_modifier_key" mtime="1375497122" type="int" value="4"/>
+	<entry name="only_scan_while_modifier_key" mtime="1375497033" type="bool" value="true"/>
+</gconf>

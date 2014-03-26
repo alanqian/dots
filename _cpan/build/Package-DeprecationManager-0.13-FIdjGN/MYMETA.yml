@@ -1,0 +1,30 @@
+---
+abstract: 'Manage deprecation warnings for your distribution'
+author:
+  - 'Dave Rolsky <autarch@urth.org>'
+build_requires:
+  Test::Fatal: 0
+  Test::More: 0.88
+  Test::Requires: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+distribution_type: module
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.57_05'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Package-DeprecationManager
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Carp: 0
+  List::MoreUtils: 0
+  Params::Util: 0
+  Sub::Install: 0
+  strict: 0
+  warnings: 0
+version: 0.13

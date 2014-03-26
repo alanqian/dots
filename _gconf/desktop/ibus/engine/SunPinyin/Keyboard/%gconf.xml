@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="PunctSwitch" mtime="1375068096" type="string">
+		<stringvalue>None</stringvalue>
+	</entry>
+	<entry name="ModeSwitch" mtime="1375068096" type="string">
+		<stringvalue>Shift</stringvalue>
+	</entry>
+</gconf>

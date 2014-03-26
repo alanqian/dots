@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="history-fileentry" mtime="1349610772" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/home/arch/Install</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/arch/Install.0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/Install/stardict/stardict_zh_Cn.part1.rar</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alanqian/ext3/Install/redhat/sync_case.sh</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alanqian/ext3/Install/redhat/reviewboard.sh</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alanqian/ext3/Install/redhat/perl5.8_mysql4.1.sh</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alanqian/ext3/Install/redhat/_vimrc</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alanqian/ext3/Install/redhat/install_simplejson.sh</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alanqian/ext3/Install/redhat/install.txt</stringvalue>
+		</li>
+	</entry>
+	<entry name="history-direntry" mtime="1349610784" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/home/arch/Install</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/arch/Install.0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/Install</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alanqian/ext3/Install</stringvalue>
+		</li>
+	</entry>
+</gconf>

@@ -1,0 +1,59 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Sub::Uplevel
+  CHECKSUM_STATUS: OK
+  ID: D/DA/DAGOLDEN/Sub-Uplevel-0.24.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: DAGOLDEN
+  archived: tar
+  build_dir: /home/alan/.cpan/build/Sub-Uplevel-0.24-8hXNsq
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1338261946
+  localfile: /home/alan/.cpan/sources/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.24.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1338261940
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1338261941
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      Exporter: 0
+      File::Find: 0
+      File::Temp: 0
+      Test::More: 0
+    requires:
+      Carp: 0
+      constant: 0
+      strict: 0
+      warnings: 0
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1338261940
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1338261940
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1332523763
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1338261946

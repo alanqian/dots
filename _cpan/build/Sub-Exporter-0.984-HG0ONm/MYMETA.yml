@@ -1,0 +1,32 @@
+---
+abstract: 'a sophisticated exporter for custom-built routines'
+author:
+  - 'Ricardo Signes <rjbs@cpan.org>'
+build_requires:
+  Exporter: 0
+  Test::More: 0.96
+  base: 0
+  overload: 0
+  subs: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+distribution_type: module
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.57_05'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Sub-Exporter
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Carp: 0
+  Data::OptList: 0.100
+  Params::Util: 0.14
+  Sub::Install: 0.92
+  strict: 0
+  warnings: 0
+version: 0.984

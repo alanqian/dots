@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="forced" mtime="1382619014" type="bool" value="false"/>
+	<entry name="newline" mtime="1382619014" type="int" value="0"/>
+	<entry name="spell_check" mtime="1382619014" type="bool" value="false"/>
+	<entry name="codec" mtime="1382619014" type="string">
+		<stringvalue>hardsub</stringvalue>
+	</entry>
+	<entry name="charset" mtime="1382619014" type="int" value="0"/>
+</gconf>

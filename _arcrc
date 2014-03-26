@@ -1,0 +1,8 @@
+{
+  "hosts" : {
+    "http:\/\/phab.mei.fm\/api\/" : {
+      "user" : "gqian",
+      "cert" : "b5pcnooozenbotdj5u56izp4vlbk7oclmuswt3wvxfwjjqfa66lyv23uovz7cbfdp726adppgzvcrieej7ngsv5wasreqqgswrwl5yktomqoikf7toppc7fi4lvk6cmclhb3jiio6n62a334d6bt3iyfb3kbdi45ao7b6emglkud2eofl3bn6ee57u2tbzs4trx7mskkg737qwvieibc2wj5pswii52xaovjadtqodzl2kv5ug6wu445utyl6nc"
+    }
+  }
+}

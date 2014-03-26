@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="dir_status_filters" mtime="1349610708" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>normal</stringvalue>
+		</li>
+	</entry>
+	<entry name="window_size_y" mtime="1349534119" type="int" value="712"/>
+	<entry name="window_size_x" mtime="1349534119" type="int" value="1366"/>
+</gconf>

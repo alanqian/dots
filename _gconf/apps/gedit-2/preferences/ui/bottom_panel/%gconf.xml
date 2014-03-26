@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="bottom_panel_visible" mtime="1336379209" type="bool" value="false"/>
+</gconf>

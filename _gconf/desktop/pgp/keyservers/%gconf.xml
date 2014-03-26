@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="publish_to" mtime="1336379208" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="auto_retrieve" mtime="1336379208" type="bool" value="false"/>
+	<entry name="auto_sync" mtime="1336379207" type="bool" value="false"/>
+	<entry name="search_text" mtime="1336379207" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="search_keyservers" mtime="1336379207" type="list" ltype="string">
+	</entry>
+</gconf>

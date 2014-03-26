@@ -1,0 +1,15 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Wed May 02 14:29:06 CST 2012
+http\://bleu.west.spy.net/~dustin/m2repo/.error=Could not transfer artifact org.codehaus.jackson\:jackson-core-asl\:pom\:1.7.9 from/to spy (http\://bleu.west.spy.net/~dustin/m2repo/)\: Failed to transfer http\://bleu.west.spy.net/~dustin/m2repo/org/codehaus/jackson/jackson-core-asl/1.7.9/jackson-core-asl-1.7.9.pom. Error code 410, Gone
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://repository.springsource.com/maven/bundles/snapshot/.error=
+http\://maven.springframework.org/milestone/.lastUpdated=1335940145825
+http\://repository.springsource.com/maven/bundles/snapshot/.lastUpdated=1335940145073
+http\://maven.springframework.org/milestone/.error=
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1335940143901
+http\://repository.springsource.com/maven/bundles/milestone/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1335940146918
+http\://repository.springsource.com/maven/bundles/milestone/.lastUpdated=1335940144487
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1335940143297
+default-http\://bleu.west.spy.net/~dustin/m2repo/.lastUpdated=1335940142708

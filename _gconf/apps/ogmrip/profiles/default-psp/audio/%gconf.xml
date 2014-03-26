@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="srate" mtime="1382619014" type="int" value="0"/>
+	<entry name="quality" mtime="1382619014" type="int" value="3"/>
+	<entry name="normalize" mtime="1382619014" type="bool" value="true"/>
+	<entry name="codec" mtime="1382619014" type="string">
+		<stringvalue>aac</stringvalue>
+	</entry>
+	<entry name="channels" mtime="1382619014" type="int" value="1"/>
+</gconf>

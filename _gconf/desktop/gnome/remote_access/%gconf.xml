@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="vnc_password" mtime="1336379207" type="string">
+		<stringvalue>keyring</stringvalue>
+	</entry>
+	<entry name="view_only" mtime="1336379207" type="bool" value="false"/>
+	<entry name="use_upnp" mtime="1336379207" type="bool" value="false"/>
+	<entry name="use_alternative_port" mtime="1336379207" type="bool" value="false"/>
+	<entry name="require_encryption" mtime="1336379207" type="bool" value="false"/>
+	<entry name="prompt_enabled" mtime="1336379207" type="bool" value="true"/>
+	<entry name="network_interface" mtime="1336379207" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="mailto" mtime="1336379207" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="lock_screen_on_disconnect" mtime="1336379207" type="bool" value="false"/>
+	<entry name="icon_visibility" mtime="1336379207" type="string">
+		<stringvalue>client</stringvalue>
+	</entry>
+	<entry name="enabled" mtime="1336379207" type="bool" value="false"/>
+	<entry name="disable_xdamage" mtime="1336379207" type="bool" value="false"/>
+	<entry name="disable_background" mtime="1336379207" type="bool" value="false"/>
+	<entry name="authentication_methods" mtime="1336379207" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>none</stringvalue>
+		</li>
+	</entry>
+	<entry name="alternative_port" mtime="1336379207" type="int" value="0"/>
+</gconf>

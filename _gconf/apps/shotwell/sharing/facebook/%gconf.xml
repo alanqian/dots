@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="user_name" mtime="1336379207" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="uid" mtime="1336379207" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="default_size" mtime="1336379207" type="int" value="0"/>
+</gconf>

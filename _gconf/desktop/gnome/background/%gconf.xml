@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="picture_filename" mtime="1368593701" type="string">
+		<stringvalue>file:///usr/share/backgrounds/Flocking_by_noombox.jpg</stringvalue>
+	</entry>
+</gconf>

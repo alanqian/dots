@@ -1,0 +1,19 @@
+do{ my $x = {
+       'build_requires' => {
+                             'IO::File' => '1.09',
+                             'Test::Exception' => '0.25'
+                           },
+       'conflicts' => {},
+       'requires' => {
+                       'Attribute::Handlers' => '0.77',
+                       'Storable' => '2.04',
+                       'Test::Simple' => '0.78',
+                       'Test::Builder::Tester' => '1.02',
+                       'perl' => '5.006001',
+                       'Test::More' => '0.78',
+                       'Test::Builder' => '0.78',
+                       'MRO::Compat' => '0.11'
+                     },
+       'recommends' => {}
+     };
+$x; }

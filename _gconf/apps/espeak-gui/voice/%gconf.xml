@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="language" mtime="1329899576" type="string">
+		<stringvalue>English</stringvalue>
+	</entry>
+	<entry name="gender" mtime="1329899587" type="string">
+		<stringvalue>female</stringvalue>
+	</entry>
+</gconf>

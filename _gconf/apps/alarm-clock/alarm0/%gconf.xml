@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="command" mtime="1395798789" schema="/schemas/apps/alarm-clock/alarm/command" type="string">
+		<stringvalue>rhythmbox-client --play</stringvalue>
+	</entry>
+	<entry name="active" mtime="1395798789" schema="/schemas/apps/alarm-clock/alarm/active" type="bool" value="false"/>
+	<entry name="time" mtime="1395798789" schema="/schemas/apps/alarm-clock/alarm/time" type="int" value="55800"/>
+	<entry name="timestamp" mtime="1395798789" schema="/schemas/apps/alarm-clock/alarm/timestamp" type="int" value="1374478200"/>
+	<entry name="notify_type" mtime="1395798789" schema="/schemas/apps/alarm-clock/alarm/notify_type"/>
+	<entry name="sound_file" mtime="1395798789" schema="/schemas/apps/alarm-clock/alarm/sound_file" type="string">
+		<stringvalue>file:///usr/share/sounds/gnome/default/alerts/glass.ogg</stringvalue>
+	</entry>
+	<entry name="sound_repeat" mtime="1395798789" schema="/schemas/apps/alarm-clock/alarm/sound_repeat" type="bool" value="true"/>
+	<entry name="type" mtime="1395798789" schema="/schemas/apps/alarm-clock/alarm/type" type="string">
+		<stringvalue>clock</stringvalue>
+	</entry>
+	<entry name="message" mtime="1395798789" schema="/schemas/apps/alarm-clock/alarm/message" type="string">
+		<stringvalue>小宝放学</stringvalue>
+	</entry>
+	<entry name="repeat" mtime="1395798789" schema="/schemas/apps/alarm-clock/alarm/repeat" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>mon</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>wed</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>thu</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>fri</stringvalue>
+		</li>
+	</entry>
+</gconf>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="dict_default_group" mtime="1375061440" type="string">
+		<stringvalue>Default Group</stringvalue>
+	</entry>
+	<entry name="dict_config_xml" mtime="1375061440" type="string">
+		<stringvalue>&lt;dictgroup name=&quot;Default Group&quot;&gt;&lt;querydict&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-thesaurus-ee-2.4.2/thesaurus-ee.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-gaojihanyudacidian_fix-2.4.2/gaojihanyudacidian_fix.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-stardict1.3-2.4.2/stardict1.3.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-guangyun-2.4.2/guangyun.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-zigenzidian-2.4.2/zigenzidian.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-eng_irregular-2.4.2/eng_irregular.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-dictd_www.dict.org_foldoc-2.4.2/dictd_www.dict.org_foldoc.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-sun_dict_e2c-2.4.2/sun_dict_e2c.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-oxfordjm-ec-2.4.2/oxfordjm-ec.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-ProECCE-2.4.2/ProECCE.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-oxford_collocations-2.4.2/oxford_collocations.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-longman-2.4.2/longman.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-oxford-gb-formated-2.4.2/oxford-gb-formated.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-kangxitext-2.4.2/kangxitext.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-merrianwebster-2.4.2/merrianwebster.ifo&quot;/&gt;&lt;virtualdict enable=&quot;true&quot; id=&quot;/usr/lib/stardict/plugins/stardict_man.so&quot;/&gt;&lt;virtualdict enable=&quot;true&quot; id=&quot;/usr/lib/stardict/plugins/stardict_qqwry.so&quot;/&gt;&lt;netdict enable=&quot;true&quot; id=&quot;/usr/lib/stardict/plugins/stardict_dictdotcn.so&quot;/&gt;&lt;/querydict&gt;&lt;scandict&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-thesaurus-ee-2.4.2/thesaurus-ee.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-gaojihanyudacidian_fix-2.4.2/gaojihanyudacidian_fix.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-stardict1.3-2.4.2/stardict1.3.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-guangyun-2.4.2/guangyun.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-zigenzidian-2.4.2/zigenzidian.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-eng_irregular-2.4.2/eng_irregular.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-dictd_www.dict.org_foldoc-2.4.2/dictd_www.dict.org_foldoc.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-sun_dict_e2c-2.4.2/sun_dict_e2c.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-oxfordjm-ec-2.4.2/oxfordjm-ec.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-ProECCE-2.4.2/ProECCE.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-oxford_collocations-2.4.2/oxford_collocations.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-longman-2.4.2/longman.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-oxford-gb-formated-2.4.2/oxford-gb-formated.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-kangxitext-2.4.2/kangxitext.ifo&quot;/&gt;&lt;localdict enable=&quot;true&quot; file=&quot;/home/alan/.stardict/dic/stardict-merrianwebster-2.4.2/merrianwebster.ifo&quot;/&gt;&lt;virtualdict enable=&quot;true&quot; id=&quot;/usr/lib/stardict/plugins/stardict_man.so&quot;/&gt;&lt;virtualdict enable=&quot;true&quot; id=&quot;/usr/lib/stardict/plugins/stardict_qqwry.so&quot;/&gt;&lt;netdict enable=&quot;true&quot; id=&quot;/usr/lib/stardict/plugins/stardict_dictdotcn.so&quot;/&gt;&lt;/scandict&gt;&lt;/dictgroup&gt;</stringvalue>
+	</entry>
+	<entry name="dict_order_list" mtime="1375061440" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-thesaurus-ee-2.4.2/thesaurus-ee.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-gaojihanyudacidian_fix-2.4.2/gaojihanyudacidian_fix.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-stardict1.3-2.4.2/stardict1.3.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-guangyun-2.4.2/guangyun.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-zigenzidian-2.4.2/zigenzidian.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-eng_irregular-2.4.2/eng_irregular.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-dictd_www.dict.org_foldoc-2.4.2/dictd_www.dict.org_foldoc.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-sun_dict_e2c-2.4.2/sun_dict_e2c.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-oxfordjm-ec-2.4.2/oxfordjm-ec.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-ProECCE-2.4.2/ProECCE.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-oxford_collocations-2.4.2/oxford_collocations.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-longman-2.4.2/longman.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-oxford-gb-formated-2.4.2/oxford-gb-formated.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-kangxitext-2.4.2/kangxitext.ifo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/alan/.stardict/dic/stardict-merrianwebster-2.4.2/merrianwebster.ifo</stringvalue>
+		</li>
+	</entry>
+</gconf>

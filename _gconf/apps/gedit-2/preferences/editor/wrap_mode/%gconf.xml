@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="wrap_mode" mtime="1382414943" type="string">
+		<stringvalue>word</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,57 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: ExtUtils::MakeMaker
+  CHECKSUM_STATUS: OK
+  ID: M/MS/MSCHWERN/ExtUtils-MakeMaker-6.62.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: MSCHWERN
+  archived: tar
+  build_dir: /home/alan/.cpan/build/ExtUtils-MakeMaker-6.62-Nj6JRq
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336109967
+  localfile: /home/alan/.cpan/sources/authors/id/M/MS/MSCHWERN/ExtUtils-MakeMaker-6.62.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336109923
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336109946
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      Data::Dumper: 0
+    requires:
+      DirHandle: 0
+      File::Basename: 0
+      File::Spec: 0.8
+      Pod::Man: 0
+      perl: 5.006
+  reqtype: b
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336109922
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336109922
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1315297348
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.12.4
+time: 1336109967

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="weight_b" mtime="1382619014" type="bool" value="true"/>
+	<entry name="vbv_maxrate" mtime="1382619014" type="int" value="62500"/>
+	<entry name="vbv_bufsize" mtime="1382619014" type="int" value="62500"/>
+	<entry name="subq" mtime="1382619014" type="int" value="8"/>
+	<entry name="rc_lookahead" mtime="1382619014" type="int" value="50"/>
+	<entry name="profile" mtime="1382619014" type="int" value="1"/>
+	<entry name="mixed_refs" mtime="1382619014" type="bool" value="true"/>
+	<entry name="me" mtime="1382619014" type="int" value="3"/>
+	<entry name="level_idc" mtime="1382619014" type="int" value="41"/>
+	<entry name="global_header" mtime="1382619014" type="bool" value="true"/>
+	<entry name="frameref" mtime="1382619014" type="int" value="5"/>
+	<entry name="dct8x8" mtime="1382619014" type="bool" value="false"/>
+	<entry name="cabac" mtime="1382619014" type="bool" value="true"/>
+	<entry name="b_pyramid" mtime="1382619014" type="int" value="2"/>
+	<entry name="bframes" mtime="1382619014" type="int" value="3"/>
+	<entry name="b_adapt" mtime="1382619014" type="int" value="2"/>
+	<entry name="aud" mtime="1382619014" type="bool" value="false"/>
+</gconf>

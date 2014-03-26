@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="show_unicode_menu" mtime="1336379205" type="bool" value="true"/>
+	<entry name="show_input_method_menu" mtime="1336379205" type="bool" value="true"/>
+	<entry name="monospace_font_name" mtime="1372783594" type="string">
+		<stringvalue>Ubuntu Mono 13</stringvalue>
+	</entry>
+	<entry name="menubar_accel" mtime="1336379205" type="string">
+		<stringvalue>F10</stringvalue>
+	</entry>
+	<entry name="gtk_key_theme" mtime="1336379205" type="string">
+		<stringvalue>Default</stringvalue>
+	</entry>
+	<entry name="gtk-im-status-style" mtime="1336379205" type="string">
+		<stringvalue>callback</stringvalue>
+	</entry>
+	<entry name="gtk-im-preedit-style" mtime="1336379205" type="string">
+		<stringvalue>callback</stringvalue>
+	</entry>
+	<entry name="gtk-im-module" mtime="1336379205" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="gtk_color_scheme" mtime="1336379205" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="enable_animations" mtime="1336379205" type="bool" value="true"/>
+	<entry name="document_font_name" mtime="1336379205" type="string">
+		<stringvalue>Sans 11</stringvalue>
+	</entry>
+	<entry name="cursor_blink_time" mtime="1336379205" type="int" value="1200"/>
+	<entry name="icon_theme" mtime="1336379205" type="string">
+		<stringvalue>ubuntu-mono-dark</stringvalue>
+	</entry>
+	<entry name="gtk_theme" mtime="1336379205" type="string">
+		<stringvalue>Ambiance</stringvalue>
+	</entry>
+	<entry name="font_name" mtime="1336379205" type="string">
+		<stringvalue>Ubuntu 11</stringvalue>
+	</entry>
+	<entry name="accessibility" mtime="1336379207" type="bool" value="false"/>
+</gconf>

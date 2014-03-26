@@ -1,0 +1,57 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: R/RC/RCLAMP/Pod-Coverage-0.22.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: R/RC/RCLAMP/Pod-Coverage-0.22.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: RCLAMP
+  archived: tar
+  build_dir: /home/alan/.cpan/build/Pod-Coverage-0.22-aYBYAH
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336110034
+  localfile: /home/alan/.cpan/sources/authors/id/R/RC/RCLAMP/Pod-Coverage-0.22.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336110033
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336110034
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      Devel::Symdump: 2.01
+      Pod::Find: 0.21
+      Pod::Parser: 1.13
+      Test::More: 0
+  reqtype: r
+  sponsored_mods:
+    Devel::Symdump: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336109998
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1336109999
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1315297348
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.12.4
+time: 1336110034

@@ -1,0 +1,55 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Sun Nov 13 14:18:08 2011 GMT by CPAN::Checksums (v2.00)
+$cksum = {
+  'Math-VecStat-0.05.tar.gz' => {
+    'md5' => 'd8d4ba1982d399ae95953fa884e3a08d',
+    'md5-ungz' => '6af6f90c272f33f204970b2bbe49342a',
+    'mtime' => '2000-10-24',
+    'sha256' => 'bf4d661b5a8af4a4001b7ad3eb695125426237e8b232ea3cabc324e6f15b5279',
+    'sha256-ungz' => '72926000189cd81a39b05841d71721af995b45fb143db0d879725152584484da',
+    'size' => '3875'
+  },
+  'Math-VecStat-0.06.tar.gz' => {
+    'md5' => '74d96e32a41333afa0bd56e15b0f50ea',
+    'md5-ungz' => 'e6a6577d71ba92a89fcee20d4f60d4dc',
+    'mtime' => '2002-04-23',
+    'sha256' => '3d6847212471c024379bce7f9032856f1316ca9a587a9b92385e17fd5c567a00',
+    'sha256-ungz' => '91c35b4f4e4280f56b4acc1d98afb628c3e326fa8f3a68cdee040cd3b70303af',
+    'size' => '4368'
+  },
+  'Math-VecStat-0.08.tar.gz' => {
+    'md5' => '3df23fb451f73bb49fd4ea344ba94020',
+    'md5-ungz' => '69a006f97d929ba81d9e85a6afb06720',
+    'mtime' => '2003-04-19',
+    'sha256' => '409a8e0e4b1025c8e80f628f65a9778aa77ab285161406ca4a6c097b13656d0d',
+    'sha256-ungz' => '8f06dd5cc6c42cb057e5c3b5d509c4f57b8c9c15f935bbd4709a980927a1a9f2',
+    'size' => '4539'
+  },
+  'Text-Document-1.04.tar.gz' => {
+    'md5' => '34ff151d9ee6ef8ed5ffff31233773d1',
+    'md5-ungz' => 'b85e68efd806b707f24ef702baa149c0',
+    'mtime' => '2001-11-23',
+    'sha256' => '8f3d0d1ffcb2c166624dc6b20635451a78238c74316aa391b9a13d762cf06c90',
+    'sha256-ungz' => '3edee39e360ce3586b040cb8425d466ebbe0b6bdf5b44fed25e63b3495f2e5f3',
+    'size' => '14063'
+  },
+  'Text-Document-1.07.tar.gz' => {
+    'md5' => '71d07f458685f84d79c73bf5f735e7c4',
+    'md5-ungz' => 'acf120635586c73d03ae41992fe151e3',
+    'mtime' => '2002-02-04',
+    'sha256' => 'd5e8473276fa941fa7014001fd2e0f5add007532fc3597e0ec3749eb368c97d7',
+    'sha256-ungz' => '60487d7414eeea4db045c6d2a92a2fd3e6810e40536fe67306729cf88be92b12',
+    'size' => '13450'
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAk6/0aAACgkQMo2oZ0UPiew8vwCfc/XSqFwitJOITGSkvYHVeUaj
+PhcAoI2UaphXP/buS7Yy+jDvqvAJtKqc
+=Ewyv
+-----END PGP SIGNATURE-----

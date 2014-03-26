@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="width" mtime="1336379208" type="int" value="600"/>
+	<entry name="logfiles" mtime="1336379208" type="list" ltype="string">
+	</entry>
+	<entry name="logfile" mtime="1336379208" type="string">
+		<stringvalue>/var/log/messages</stringvalue>
+	</entry>
+	<entry name="height" mtime="1336379208" type="int" value="400"/>
+	<entry name="fontsize" mtime="1336379208" type="int" value="10"/>
+	<entry name="filters" mtime="1336379208" type="list" ltype="string">
+	</entry>
+</gconf>

@@ -1,0 +1,398 @@
+---
+history:
+  - attempts:
+      - method: dleasy
+        start: 1345168594.67685
+        url: &1 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345168596.18495
+    file: authors/01mailrc.txt.gz
+    filesize: 196804
+    start: 1345168594.67667
+    thesiteurl: *1
+  - attempts:
+      - method: dleasy
+        start: 1345168596.78625
+        url: &2 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345168598.32102
+    file: modules/02packages.details.txt.gz
+    filesize: 1295768
+    start: 1345168596.78616
+    thesiteurl: *2
+  - attempts:
+      - method: dleasy
+        start: 1345168603.5887
+        url: &3 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345168604.46324
+    file: modules/03modlist.data.gz
+    filesize: 207614
+    start: 1345168603.58859
+    thesiteurl: *3
+  - attempts:
+      - method: dleasy
+        start: 1345168605.54285
+        url: &4 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345168606.13401
+    file: authors/id/A/AV/AVIKAK/Algorithm-KMeans-1.40.tar.gz
+    filesize: 44620
+    start: 1345168605.4764
+    thesiteurl: *4
+  - attempts:
+      - method: dleasy
+        start: 1345168606.27181
+        url: &5 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345168606.74552
+    file: authors/id/A/AV/AVIKAK/CHECKSUMS
+    filesize: 11933
+    start: 1345168606.24684
+    thesiteurl: *5
+  - attempts:
+      - method: dleasy
+        start: 1345168610.33866
+        url: &6 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345168611.36672
+    file: authors/id/M/ME/MEHNER/Graphics-GnuplotIF-1.7.tar.gz
+    filesize: 15017
+    start: 1345168610.33768
+    thesiteurl: *6
+  - attempts:
+      - method: dleasy
+        start: 1345168611.4053
+        url: &7 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345168612.01988
+    file: authors/id/M/ME/MEHNER/CHECKSUMS
+    filesize: 5185
+    start: 1345168611.38965
+    thesiteurl: *7
+  - attempts:
+      - method: dleasy
+        start: 1345168661.03406
+        url: &8 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345168661.68414
+    file: authors/id/G/GR/GROMMEL/Math-Random-0.71.tar.gz
+    filesize: 46011
+    start: 1345168661.03393
+    thesiteurl: *8
+  - attempts:
+      - method: dleasy
+        start: 1345168671.7041
+        url: &9 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345168680.09509
+    file: authors/id/L/LE/LETO/Math-GSL-0.27.tar.gz
+    filesize: 9273965
+    start: 1345168671.70376
+    thesiteurl: *9
+  - attempts:
+      - method: dleasy
+        start: 1345168680.14743
+        url: &10 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345168680.67672
+    file: authors/id/L/LE/LETO/CHECKSUMS
+    filesize: 26987
+    start: 1345168680.12528
+    thesiteurl: *10
+  - attempts:
+      - method: dleasy
+        start: 1345168687.8203
+        url: &11 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345168688.43618
+    file: authors/id/X/XA/XAOC/ExtUtils-PkgConfig-1.13.tar.gz
+    filesize: 9141
+    start: 1345168687.81932
+    thesiteurl: *11
+  - attempts:
+      - method: dleasy
+        start: 1345168688.50157
+        url: &12 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345168689.02366
+    file: authors/id/X/XA/XAOC/CHECKSUMS
+    filesize: 7820
+    start: 1345168688.47438
+    thesiteurl: *12
+  - attempts:
+      - method: dleasy
+        start: 1345173122.62765
+        url: &13 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173124.39873
+    file: authors/id/A/AD/ADIE/Test-Class-0.37.tar.gz
+    filesize: 77317
+    start: 1345173122.62753
+    thesiteurl: *13
+  - attempts:
+      - method: dleasy
+        start: 1345173124.47416
+        url: &14 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173125.21144
+    file: authors/id/A/AD/ADIE/CHECKSUMS
+    filesize: 9092
+    start: 1345173124.44145
+    thesiteurl: *14
+  - attempts:
+      - method: dleasy
+        start: 1345173127.07384
+        url: &15 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173128.05005
+    file: authors/id/F/FL/FLORA/MRO-Compat-0.11.tar.gz
+    filesize: 20474
+    start: 1345173127.04629
+    thesiteurl: *15
+  - attempts:
+      - method: dleasy
+        start: 1345173128.13514
+        url: &16 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173130.88145
+    file: authors/id/F/FL/FLORA/CHECKSUMS
+    filesize: 446504
+    start: 1345173128.09858
+    thesiteurl: *16
+  - attempts:
+      - method: dleasy
+        start: 1345173138.95316
+        url: &17 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173139.67788
+    file: authors/id/O/OV/OVID/Test-Most-0.25.tar.gz
+    filesize: 16696
+    start: 1345173138.9528
+    thesiteurl: *17
+  - attempts:
+      - method: dleasy
+        start: 1345173139.76212
+        url: &18 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173140.75219
+    file: authors/id/O/OV/OVID/CHECKSUMS
+    filesize: 107480
+    start: 1345173139.72194
+    thesiteurl: *18
+  - attempts:
+      - method: dleasy
+        start: 1345173145.03196
+        url: &19 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173146.23739
+    file: authors/id/D/DR/DROLSKY/Exception-Class-1.32.tar.gz
+    filesize: 23702
+    start: 1345173145.03174
+    thesiteurl: *19
+  - attempts:
+      - method: dleasy
+        start: 1345173147.72532
+        url: &20 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173148.88196
+    file: authors/id/D/DR/DROLSKY/Devel-StackTrace-1.27.tar.gz
+    filesize: 18462
+    start: 1345173147.72493
+    thesiteurl: *20
+  - attempts:
+      - method: dleasy
+        start: 1345173151.74767
+        url: &21 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173153.53077
+    file: authors/id/T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
+    filesize: 5660
+    start: 1345173151.73723
+    thesiteurl: *21
+  - attempts:
+      - method: dleasy
+        start: 1345173153.64179
+        url: &22 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173155.25576
+    file: authors/id/T/TM/TMTM/CHECKSUMS
+    filesize: 78749
+    start: 1345173153.59143
+    thesiteurl: *22
+  - attempts:
+      - method: dleasy
+        start: 1345173163.89379
+        url: &23 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173164.62105
+    file: authors/id/C/CH/CHORNY/Test-Warn-0.24.tar.gz
+    filesize: 11804
+    start: 1345173163.89339
+    thesiteurl: *23
+  - attempts:
+      - method: dleasy
+        start: 1345173164.73666
+        url: &24 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173165.50018
+    file: authors/id/C/CH/CHORNY/CHECKSUMS
+    filesize: 39824
+    start: 1345173164.68132
+    thesiteurl: *24
+  - attempts:
+      - method: dleasy
+        start: 1345173298.35741
+        url: &25 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173300.60711
+    file: authors/id/Z/ZE/ZEFRAM/Carp-1.26.tar.gz
+    filesize: 12631
+    start: 1345173298.35701
+    thesiteurl: *25
+  - attempts:
+      - method: dleasy
+        start: 1345173300.77142
+        url: &26 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173305.63861
+    file: authors/id/Z/ZE/ZEFRAM/CHECKSUMS
+    filesize: 160721
+    start: 1345173300.70967
+    thesiteurl: *26
+  - attempts:
+      - method: dleasy
+        start: 1345173309.76326
+        url: &27 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173319.08082
+    file: authors/id/C/CO/COGENT/Tree-DAG_Node-1.06.tar.gz
+    filesize: 32843
+    start: 1345173309.76257
+    thesiteurl: *27
+  - attempts:
+      - method: dleasy
+        start: 1345173319.25754
+        url: &28 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173323.23699
+    file: authors/id/C/CO/COGENT/CHECKSUMS
+    filesize: 1351
+    start: 1345173319.17785
+    thesiteurl: *28
+  - attempts:
+      - method: dleasy
+        start: 1345173345.546
+        url: &29 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173347.9609
+    file: authors/id/O/OV/OVID/Test-Differences-0.61.tar.gz
+    filesize: 14057
+    start: 1345173345.54587
+    thesiteurl: *29
+  - attempts:
+      - method: dleasy
+        start: 1345173350.06936
+        url: &30 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173351.36659
+    file: authors/id/O/OV/OVID/Text-Diff-1.41.tar.gz
+    filesize: 27813
+    start: 1345173350.06897
+    thesiteurl: *30
+  - attempts:
+      - method: dleasy
+        start: 1345173354.1867
+        url: &31 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173355.90404
+    file: authors/id/R/RJ/RJBS/Test-Deep-0.110.tar.gz
+    filesize: 35504
+    start: 1345173354.18646
+    thesiteurl: *31
+  - attempts:
+      - method: dleasy
+        start: 1345173356.11782
+        url: &32 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173358.25921
+    file: authors/id/R/RJ/RJBS/CHECKSUMS
+    filesize: 374874
+    start: 1345173356.04402
+    thesiteurl: *32
+  - attempts:
+      - method: dleasy
+        start: 1345173360.10866
+        url: &33 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345173361.06747
+    file: authors/id/A/AD/ADAMK/Test-NoWarnings-1.04.tar.gz
+    filesize: 18204
+    start: 1345173360.10846
+    thesiteurl: *33
+  - attempts:
+      - method: dleasy
+        start: 1345534822.86052
+        url: &34 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345534824.05598
+    file: authors/01mailrc.txt.gz
+    filesize: 197005
+    start: 1345534822.86038
+    thesiteurl: *34
+  - attempts:
+      - method: dleasy
+        start: 1345534824.79237
+        url: &35 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345534826.27643
+    file: modules/02packages.details.txt.gz
+    filesize: 1297514
+    start: 1345534824.79221
+    thesiteurl: *35
+  - attempts:
+      - method: dleasy
+        start: 1345534831.37433
+        url: &36 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.163.com/cpan/
+    end: 1345534832.03585
+    file: modules/03modlist.data.gz
+    filesize: 207710
+    start: 1345534831.37423
+    thesiteurl: *36

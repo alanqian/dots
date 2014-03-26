@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_strut" mtime="1336379208" type="bool" value="false"/>
+	<entry name="super_key_enable" mtime="1336379208" type="bool" value="true"/>
+	<entry name="hide_mode" mtime="1336379208" type="int" value="2"/>
+</gconf>

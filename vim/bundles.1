@@ -1,0 +1,53 @@
+cd ~/.vim
+# DelimitMate provides automatic closing of quotes, parenthesis, brackets, etc.
+# :help delimitMate
+git submodule add git://github.com/Raimondi/delimitMate.git bundle/delmitmate
+git submodule init && git submodule update
+
+# CloseTag is simple plugin that intelligently closes the html tags based of the
+# currently open tag. It is triggered when you type </. CloseTag will detect and close
+# the open tag intelligently.
+git submodule add git://github.com/docunext/closetag.vim.git bundle/closetag
+git submodule init && git submodule update
+# autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
+# autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source
+# ~/.vim/bundle/closetag/plugin/closetag.vim
+
+# NERDCommenter provides a bunch of key mapping for working with comments in a very fast
+# and efficient manner.
+git submodule add git://github.com/scrooloose/nerdcommenter.git bundle/nerdcommenter
+git submodule init && git submodule update
+
+# Some useful key mappings that I use regularly are:
+# [count]<leader>ci - Toggles the comment state of the selected line(s) individually.
+# [count]<leader>cy- Same as cc except that the commented line(s) are yanked first.
+# <leader>c$ - Comments the current line from the cursor to the end of line.
+# <leader>cA - Adds comment delimiters to the end of line and goes into insert mode
+#     between them.
+#
+# For complete list of NERDCommenter commands see :help NERDCommenter
+
+# SuperTab let's me do all my insert mode completion using the <TAB> key.
+git submodule add git://github.com/vim-scripts/supertab.git bundle/supertab
+git submodule init && git submodule update
+
+# SuperTab also works with vim's builtin autocomplete feature OmniComplete. Just add
+# following line after your OmniComplete configurations.
+#
+# let g:SuperTabDefaultCompletionType = "context"
+
+# Fugitive provides an amazingly deep Git integration for vim.
+git submodule add git://github.com/tpope/vim-fugitive.git bundle/fugitive
+git submodule init && git submodule update
+
+# Tagbar displays the tags of the current file in a sidebar, similar to Taglist, but in
+# a super sexy way - ordered by scope.
+git submodule add git://github.com/majutsushi/tagbar.git bundle/tagbar
+git submodule init && git submodule update
+
+# let g:tagbar_usearrows = 1
+# nnoremap <leader>l :TagbarToggle<CR>
+
+Surround - For editing the surroundings of text.
+Better CSS Syntax - Provides better CSS syntax highlighting.
+

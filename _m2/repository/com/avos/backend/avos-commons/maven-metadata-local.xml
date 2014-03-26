@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.avos.backend</groupId>
+  <artifactId>avos-commons</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+      <version>1.0.0.0</version>
+    </versions>
+    <lastUpdated>20121109065259</lastUpdated>
+  </versioning>
+</metadata>

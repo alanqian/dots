@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="launcher_capture_mouse" mtime="1388366538" type="bool" value="false"/>
+	<entry name="alt_tab_prev" mtime="1375195029" type="string">
+		<stringvalue>Disabled</stringvalue>
+	</entry>
+	<entry name="show_desktop_icon" mtime="1375194830" type="bool" value="true"/>
+	<entry name="devices_option" mtime="1375194830" type="int" value="0"/>
+	<entry name="reveal_trigger" mtime="1375194830" type="int" value="1"/>
+	<entry name="edge_responsiveness" mtime="1375194830" type="float" value="5.7204227447509766"/>
+	<entry name="launcher_hide_mode" mtime="1375194830" type="int" value="1"/>
+	<entry name="icon_size" mtime="1375194830" type="int" value="42"/>
+	<entry name="show_hud" mtime="1376234612" type="string">
+		<stringvalue>&lt;Alt&gt;&lt;Super&gt;</stringvalue>
+	</entry>
+	<entry name="num_launchers" mtime="1388366538" type="int" value="1"/>
+</gconf>

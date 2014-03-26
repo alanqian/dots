@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="library_width" mtime="1370192277" type="int" value="1024"/>
+	<entry name="library_maximize" mtime="1370192277" type="bool" value="false"/>
+	<entry name="library_height" mtime="1370192277" type="int" value="768"/>
+	<entry name="direct_width" mtime="1336379207" type="int" value="1024"/>
+	<entry name="direct_maximize" mtime="1336379207" type="bool" value="false"/>
+	<entry name="direct_height" mtime="1336379207" type="int" value="768"/>
+</gconf>

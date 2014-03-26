@@ -1,0 +1,11 @@
+"3.5 (created: 2012/08/04 00:41:20)
+
+noremap j 5j
+noremap k 5k
+noremap <C-+> zM
+noremap <C--> zR
+set "nextpattern=\\bnext\\b,^(全文),(全文)$,下一[页章节篇],目录,^>$,^(>>|»)$,^(>|»),(>|»)$,\\bmore\\b"
+set "previouspattern=\\bprev|previous\\b,上一[页章节篇],^<$,^(<<|«)$,^(<|«),(<|«)$"
+source! /home/alan/.vimperatorrc.local
+
+" vim: set ft=vimperator:

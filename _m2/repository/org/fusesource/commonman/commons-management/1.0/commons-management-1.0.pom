@@ -1,0 +1,268 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.fusesource.commonman</groupId>
+  <artifactId>commons-management</artifactId>
+  <packaging>bundle</packaging>
+  <version>1.0</version>
+  <name>Commons Management</name>
+
+  <properties>
+    <!-- By default, fail on checkstyle/pmd errors -->
+    <checkstyle.fail.on.error>true</checkstyle.fail.on.error>
+    <pmd.fail.on.error>true</pmd.fail.on.error>
+
+    <!-- stuff for targetting Java versions and such -->
+    <java.target.version>1.5</java.target.version>
+    <java.warning.flags>-Xlint:unchecked,deprecation,fallthrough,finally</java.warning.flags>
+
+    <!-- to not use a platform specific encoding but fixed at UTF-8 -->
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+
+  <prerequisites>
+    <maven>2.0.9</maven>
+  </prerequisites>
+
+  <url>http://commonman.fusesource.org</url>
+
+  <organization>
+    <name>FuseSource</name>
+    <url>http://www.fusesource.org</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>2.5.6</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aop</artifactId>
+      <version>2.5.6</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.14</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.1.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>${java.target.version}</source>
+          <target>${java.target.version}</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <version>2.0.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <instructions>
+            <Bundle-SymbolicName>${pom.artifactId}</Bundle-SymbolicName>
+            <Import-Package>*</Import-Package>
+            <Export-Package>
+              org.fusesource.commons.management;version=${pom.version},
+              org.fusesource.commons.management.basic;version=${pom.version},
+              org.fusesource.commons.management.noop;version=${pom.version}
+            </Export-Package>
+          </instructions>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>test-jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+
+  </build>
+  
+  <reporting>
+     <plugins>
+       <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-javadoc-plugin</artifactId>
+       </plugin>
+     </plugins>
+   </reporting>
+
+  <scm>
+    <connection>scm:svn:http://fusesource.com/forge/svn/commonman/tags/commons-management-1.0</connection>
+    <developerConnection>scm:svn:http://fusesource.com/forge/svn/commonman/tags/commons-management-1.0</developerConnection>
+    <url>http://fusesource.com/forge/svn/commonman/tags/commons-management-1.0</url>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>fusesource.m2</id>
+      <name>FuseSource Community Release Repository</name>
+      <url>scpexe://repo.fusesource.com/www/repo.fusesource.com/maven2</url>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>fusesource.m2-snapshots</id>
+      <name>FuseSource Community Snapshot Repository</name>
+      <url>scpexe://repo.fusesource.com/www/repo.fusesource.com/maven2-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <profiles>
+    <profile>
+      <id>deploy</id>
+      <build>
+        <defaultGoal>deploy</defaultGoal>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-source-plugin</artifactId>
+            <version>2.1</version>
+            <executions>
+              <execution>
+                <id>attach-sources</id>
+                <goals>
+                  <goal>jar</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>2.4</version>
+            <executions>
+              <execution>
+                <id>attach-javadocs</id>
+                <goals>
+                  <goal>jar</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+    <profile>
+      <!-- basic profile with no checks and no tests -->
+      <id>fastinstall</id>
+      <activation>
+        <property>
+          <name>fastinstall</name>
+        </property>
+      </activation>
+      <properties>
+        <maven.test.skip.exec>true</maven.test.skip.exec>
+      </properties>
+    </profile>
+
+    <profile>
+      <!-- default profile enables checkstyle and Xlint stuff -->
+      <id>sourcecheck</id>
+      <activation>
+          <activeByDefault>true</activeByDefault>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <version>2.2</version>
+            <executions>
+              <execution>
+                <id>validate</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>checkstyle</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <configLocation>${basedir}/etc/checkstyle.xml</configLocation>
+              <consoleOutput>true</consoleOutput>
+              <failsOnError>${checkstyle.fail.on.error}</failsOnError>
+              <linkXRef>false</linkXRef>
+              <suppressionsLocation>${basedir}/etc/checkstyle-suppressions.xml</suppressionsLocation>
+              <sourceDirectory>${basedir}/src</sourceDirectory>
+            </configuration>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pmd-plugin</artifactId>
+            <version>2.4</version>
+            <configuration>
+              <rulesets>
+                  <ruleset>${basedir}/etc/pmd-ruleset.xml</ruleset>
+              </rulesets>
+              <targetJdk>${java.target.version}</targetJdk>
+              <linkXRef>false</linkXRef>
+              <failOnViolation>${pmd.fail.on.error}</failOnViolation>
+              <verbose>true</verbose>
+              <includeTests>true</includeTests>
+              <verbose>true</verbose>
+            </configuration>
+            <executions>
+              <execution>
+                <id>validate</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>check</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+    <profile>
+      <id>nocheckstyle</id>
+      <activation>
+        <property>
+          <name>no.checkstyle</name>
+        </property>
+      </activation>
+      <properties>
+        <checkstyle.excludes>**/*.java</checkstyle.excludes>
+        <pmd.skip>true</pmd.skip>
+      </properties>
+    </profile>
+  </profiles>
+</project>

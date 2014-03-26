@@ -1,0 +1,35 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: L/LE/LETO/Math-GSL-0.27.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: L/LE/LETO/Math-GSL-0.27.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: LETO
+  archived: tar
+  badtestcnt: 0
+  build_dir: /home/alan/.cpan/build/Math-GSL-0.27-JS_Ngx
+  incommandcolor: 2
+  localfile: /home/alan/.cpan/sources/authors/id/L/LE/LETO/Math-GSL-0.27.tar.gz
+  modulebuild: 1
+  negative_prefs_cache: 0
+  prefs: {}
+  reqtype: r
+  sponsored_mods:
+    ExtUtils::PkgConfig: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1345168683
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: 1
+    TEXT: NO '/usr/bin/perl Build.PL --installdirs site' returned status 256
+    TIME: 1345168692
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1332523763
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1345168692

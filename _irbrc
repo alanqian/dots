@@ -1,0 +1,261 @@
+# sudo apt-get install libreadline-gplv2-dev
+# sudo gem install wirble bond sketches boson hirb ori awesome_print map_by_method what_methods
+require 'rubygems'
+
+### START debundle.rb ###
+
+# Copyright (c) Conrad Irwin <conrad.irwin@gmail.com> -- MIT License
+# Source: https://github.com/ConradIrwin/pry-debundle
+# Pry references removed by Jan Lelis <mail@janlelis.de>
+
+module Debundle
+  VERSION = '0.7.d'
+end
+
+class << Debundle
+  # Break out of the Bundler jail.
+  #
+  # This can be used to load files in development that are not in your Gemfile (for
+  # example if you want to test something with a tool that you have locally).
+  #
+  # @example
+  # Debundle.debundle!
+  # require 'all_the_things'
+  #
+  # Normally you don't need to cal this directly though, as it is called for you when Pry
+  # starts.
+  #
+  # See https://github.com/carlhuda/bundler/issues/183 for some background.
+  #
+  def debundle!
+    return unless defined?(Bundler)
+
+    if rubygems_18_or_better?
+      if Gem.post_reset_hooks.reject!{ |hook| hook.source_location.first =~ %r{/bundler/} }
+        Gem::Specification.reset
+        remove_bundler_monkeypatches
+      end
+
+    # Rubygems 1.6 — TODO might be quite slow.
+    elsif Gem.source_index && Gem.send(:class_variable_get, :@@source_index)
+      Gem.source_index.refresh!
+      remove_bundler_monkeypatches
+
+    else
+      raise "No hacks found :("
+    end
+  rescue => e
+    puts "Debundling failed: #{e.message}"
+    puts "When reporting bugs to https://github.com/ConradIrwin/pry-debundle, please include:"
+    puts "* gem version: #{Gem::VERSION rescue 'undefined'}"
+    puts "* bundler version: #{Bundler::VERSION rescue 'undefined'}"
+    puts "* ruby version: #{RUBY_VERSION rescue 'undefined'}"
+    puts "* ruby engine: #{RUBY_ENGINE rescue 'undefined'}"
+  end
+
+  private
+
+  def rubygems_18_or_better?
+    defined?(Gem.post_reset_hooks)
+  end
+
+  def rubygems_20_or_better?
+    Gem::VERSION.to_i >= 2
+  end
+
+  # Ugh, this stuff is quite vile.
+  def remove_bundler_monkeypatches
+    if rubygems_20_or_better?
+      load 'rubygems/core_ext/kernel_require.rb'
+    else
+      load 'rubygems/custom_require.rb'
+    end
+
+    if rubygems_18_or_better?
+      Kernel.module_eval do
+        def gem(gem_name, *requirements) # :doc:
+          skip_list = (ENV['GEM_SKIP'] || "").split(/:/)
+          raise Gem::LoadError, "skipping #{gem_name}" if skip_list.include? gem_name
+          spec = Gem::Dependency.new(gem_name, *requirements).to_spec
+          spec.activate if spec
+        end
+      end
+    else
+      Kernel.module_eval do
+        def gem(gem_name, *requirements) # :doc:
+          skip_list = (ENV['GEM_SKIP'] || "").split(/:/)
+          raise Gem::LoadError, "skipping #{gem_name}" if skip_list.include? gem_name
+          Gem.activate(gem_name, *requirements)
+        end
+      end
+    end
+  end
+end
+
+Debundle.debundle!
+
+
+require 'wirble'    # colorize your irb: syntax highlight
+require 'bond'      # more advanced autocompletion
+require 'sketches'  # editing and evaluating code easily
+require 'boson'     # command framework for creating libraries of commands to be loaded as needed
+require 'hirb'      # hirb: framework for associating views per class
+require 'ori'       # ori: oo ri for irb console
+require 'awesome_print' # awesome_print: pretty print ruby objects in full color
+require 'map_by_method' # map_by_method: plural form of Symbol.to_proc
+require 'what_methods'  # what?: method finder,
+                        # if I have an object, what method can I call on it to get that result?
+                        # like 3.45.what? 4, => ceil
+
+# save history on the fly, and autoload while session start
+module Readline
+  module History
+    LOG = "#{ENV['HOME']}/.irb_history"
+
+    def self.write_log(line)
+      File.open(LOG, 'ab') { |f| f << "#{line}\n" }
+    end
+
+    def self.start_session
+      load_history
+      write_log("# session start: #{Time.now}")
+      at_exit { write_log("# session stop: #{Time.now}\n") }
+    end
+
+    def self.load_history
+      File.foreach(LOG) do |line|
+        st = line.chomp
+        HISTORY << st unless st.empty? or st =~ /^\s*#/
+      end
+    rescue Errno::ENOENT # history file doesn't yet exist
+    end
+  end
+
+  alias :old_readline :readline
+
+  def readline(*args)
+    ln = old_readline(*args)
+    begin
+      History.write_log(ln)
+    rescue
+    end
+    ln
+  end
+end
+Readline::History.start_session
+
+# h, h!, hgrep
+def history_a(n=Readline::HISTORY.size)
+    size=Readline::HISTORY.size
+    Readline::HISTORY.to_a[(size - n)..size-1]
+end
+
+def decorate_h(n)
+    size=Readline::HISTORY.size
+    ((size - n)..size-1).zip(history_a(n)).map {|e| e.join(" ")}
+end
+
+def h(n=10)
+    entries = decorate_h(n)
+    puts entries
+    entries.size
+end
+
+def hgrep(word)
+    matched=decorate_h(Readline::HISTORY.size - 1).select {|h| h.match(word)}
+    puts matched
+    matched.size
+end
+
+def h!(start, stop=nil)
+    stop=start unless stop
+    code = history_a[start..stop]
+    code.each_with_index { |e,i|
+        irb_context.evaluate(e,i)
+    }
+    Readline::HISTORY.pop
+    code.each { |l|
+        Readline::HISTORY.push l
+    }
+    puts code
+end
+
+class Object
+  # Return only the methods not present on basic objects
+  def new_methods
+    ap (self.methods - Object.new.methods).sort
+  end
+
+  # Return only the methods not present on basic objects
+  def own_methods
+    ap (self.methods - self.class.superclass.instance_methods).sort
+  end
+end
+
+# Make use of readline library
+ARGV.concat [ "--readline" ]
+
+# customize configuration
+IRB.conf[:PROMPT][:CUSTOM] = {
+  :PROMPT_I => ">> ",
+  :PROMPT_S => "%l.. ",
+  :PROMPT_C => ".. ",
+  :PROMPT_N => ".. ",
+  :RETURN => "=> %s\n"
+}
+IRB.conf[:PROMPT_MODE] = :CUSTOM
+IRB.conf[:AUTO_INDENT] = true
+
+
+# wirble initializations
+Wirble.init
+Wirble.colorize
+# enable bond
+Bond.start
+
+#IRB.conf[:ECHO] = false
+# in irb,
+#conf.echo = false
+
+# open with sketch
+# http://sketches.rubyforge.org/
+Sketches.config :editor => 'vim'
+
+# http://tagaholic.me/hirb/doc/index.html
+# Hirb.enable
+
+## ori
+# Array.ri
+# Array.ri :each
+## Regular expression argument denotes list request.
+# String.ri //
+# "".ri //
+#
+## Show method names matching a regular expression.
+# "".ri /case/
+# "".ri /^to_/
+# [].ri /sort/
+# {}.ri /each/
+#
+## Show own methods only.
+# Time.ri //, :own => true
+# Time.ri //, :own
+#
+## Show ALL methods, including those private of Kernel.
+# Hash.ri //, :all => true
+# Hash.ri //, :all
+#
+## Show class methods or instance methods only.
+# Module.ri //, :access => "::"
+# Module.ri //, :access => "#"
+#
+## Specify visibility: public, protected or private.
+# Module.ri //, :visibility => :private
+# Module.ri //, :visibility => [:public, :protected]
+#
+## Filter fully formatted name by given regexp.
+# Module.ri //, :fullre => /\(Object\)::/
+#
+## Combine options.
+# Module.ri //, :fullre => /\(Object\)::/, :access => "::", :visibility => :private
+#

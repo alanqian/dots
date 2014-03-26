@@ -1,0 +1,28 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+proc            /proc           proc    nodev,noexec,nosuid 0       0
+
+# / was on /dev/sda1 during installation
+UUID=3856a2a5-a40e-44fa-b179-366d4b36b71a /             ext4    noatime,nodiratime,discard,commit=120,errors=remount-ro 0       1
+
+# /home was on /dev/sda2 during installation
+UUID=c3c602ed-33df-47d4-b152-6f21c0372e38 /home         ext4    noatime,nodiratime,discard,commit=120,defaults        0       2
+
+# SSD tweak: /tmp directories as tmpfs
+tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0
+tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0
+
+# SSD tweak : log directory as tmpfs
+tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0
+
+# /dev/sda3: LABEL="arch" UUID="57e3b782-2f42-45de-a2ff-1a1099a51ece" TYPE="ext4"
+UUID=57e3b782-2f42-45de-a2ff-1a1099a51ece /mnt/arch     ext4    defaults        0       2
+
+# /dev/sda5: LABEL="home" UUID="7d201f70-93d1-4f72-b759-2ab03d98375f" TYPE="ext4"
+UUID=7d201f70-93d1-4f72-b759-2ab03d98375f /mnt/home     ext4    defaults        0       2
+

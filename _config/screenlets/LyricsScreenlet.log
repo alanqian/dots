@@ -1,0 +1,126 @@
+CachingBackend: Loading instances from cache
+CachingBackend: Loading <Lyrics3>
+theme_name='default'
+is_sticky='False'
+keep_below='True'
+state='minimized'
+keep_above='False'
+text_scale='1.5'
+is_dragged='False'
+color_highlight='1.00000,1.00000,1.00000,1.00000'
+x='808'
+skip_taskbar='True'
+color_normal='1.00000,1.00000,1.00000,0.50000'
+CachingBackend: Loading <Lyrics2>
+theme_name='default'
+is_sticky='False'
+keep_below='True'
+state='minimized'
+keep_above='False'
+text_scale='1.5'
+is_dragged='False'
+color_highlight='1.00000,1.00000,1.00000,1.00000'
+x='808'
+skip_taskbar='True'
+color_normal='1.00000,1.00000,1.00000,0.50000'
+CachingBackend: Loading <Lyrics1>
+theme_name='default'
+is_sticky='False'
+keep_below='True'
+state='minimized'
+keep_above='False'
+text_scale='1.5'
+is_dragged='False'
+color_highlight='1.00000,1.00000,1.00000,1.00000'
+x='808'
+skip_taskbar='True'
+color_normal='1.00000,1.00000,1.00000,0.50000'
+CachingBackend: Loading <Lyrics4>
+theme_name='default'
+is_sticky='False'
+keep_below='True'
+state='minimized'
+keep_above='False'
+text_scale='1.5'
+is_dragged='False'
+color_highlight='1.00000,1.00000,1.00000,1.00000'
+x='808'
+skip_taskbar='True'
+color_normal='1.00000,1.00000,1.00000,0.50000'
+Creating new entry for LyricsScreenlet in /tmp/screenlets/screenlets.alan.running
+Loading instances in: /home/alan/.config/screenlets/Lyrics/default/
+Loaded config from: Lyrics3.ini
+NORMAL SHAPE
+NORMAL SHAPE
+NORMAL SHAPE
+Set THEME
+on_minimized_resized: w=64 h=64
+Set options in Lyrics Screenlet
+NORMAL SHAPE
+NORMAL SHAPE
+Set THEME
+on_minimized_resized: w=64 h=64
+NORMAL SHAPE
+minimized
+on_minimized_resized: w=64 h=64
+Loaded config from: Lyrics2.ini
+NORMAL SHAPE
+NORMAL SHAPE
+NORMAL SHAPE
+Set THEME
+on_minimized_resized: w=64 h=64
+Set options in Lyrics Screenlet
+NORMAL SHAPE
+NORMAL SHAPE
+Set THEME
+on_minimized_resized: w=64 h=64
+NORMAL SHAPE
+minimized
+on_minimized_resized: w=64 h=64
+Loaded config from: Lyrics1.ini
+NORMAL SHAPE
+NORMAL SHAPE
+NORMAL SHAPE
+Set THEME
+on_minimized_resized: w=64 h=64
+Set options in Lyrics Screenlet
+NORMAL SHAPE
+NORMAL SHAPE
+Set THEME
+on_minimized_resized: w=64 h=64
+NORMAL SHAPE
+minimized
+on_minimized_resized: w=64 h=64
+Loaded config from: Lyrics4.ini
+NORMAL SHAPE
+NORMAL SHAPE
+NORMAL SHAPE
+Set THEME
+on_minimized_resized: w=64 h=64
+Set options in Lyrics Screenlet
+NORMAL SHAPE
+NORMAL SHAPE
+Set THEME
+on_minimized_resized: w=64 h=64
+NORMAL SHAPE
+minimized
+on_minimized_resized: w=64 h=64
+Restored instances from session 'default' ...
+NEW MPRIS PLAYER <players.mpris.MprisApiPlayer instance at 0x3a72e60> 
+connect
+signals
+is_playing
+NEW MPRIS PLAYER <players.mpris.MprisApiPlayer instance at 0x3a72ea8> 
+connect
+signals
+is_playing
+NEW MPRIS PLAYER <players.mpris.MprisApiPlayer instance at 0x3a801b8> 
+connect
+signals
+is_playing
+NEW MPRIS PLAYER <players.mpris.MprisApiPlayer instance at 0x3a80440> 
+connect
+signals
+is_playing
+No more screenlets running.
+Deleting global tempfile /tmp/screenlets/screenlets.alan.running

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="active_plugins" mtime="1379595434" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>fullscreen</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>statusbar-date</stringvalue>
+		</li>
+	</entry>
+</gconf>

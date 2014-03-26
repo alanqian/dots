@@ -1,0 +1,127 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon Jun  4 05:41:35 2012 GMT by CPAN::Checksums (v2.05)
+$cksum = {
+  'Games-Sudoku-Solver-1.1.0.meta' => {
+    'md5' => '9dfcc7746de21d48f21598d5ba6466e9',
+    'mtime' => '2007-12-14',
+    'sha256' => '4301d245df6e73d1e7db1ddc309891ca606cded203e37463625290384d76f87e',
+    'size' => '397'
+  },
+  'Games-Sudoku-Solver-1.1.0.tar.gz' => {
+    'md5' => '836a1838b99e21319ae7eae4598ab079',
+    'md5-ungz' => '86b7e0355bd2fd75ce73370bc7acc15c',
+    'mtime' => '2007-12-14',
+    'sha256' => 'a25431ca45569e040689f4418d2d5aca56c056bf0b2f51480e74e8c6468f2e6b',
+    'sha256-ungz' => 'eb186fbdb568ef42ea528c8b34fcdf743330a210001ed9f0f45a213dc97f4539',
+    'size' => '11217'
+  },
+  'Games-Sudoku-Solver-v1.0.0.meta' => {
+    'md5' => 'd88c220807c7502af8d6f3df30c6d7bc',
+    'mtime' => '2007-06-06',
+    'sha256' => 'c90a4793713048960473feb4dcde50e5dcda4b7c764d5fe2eaf08f23c8daec78',
+    'size' => '398'
+  },
+  'Games-Sudoku-Solver-v1.0.0.tar.gz' => {
+    'md5' => '51dbe699f4b7d5a406a6f9012643d0fa',
+    'md5-ungz' => '1ad3bdd51a8ae9ca91b9ae7a30e94f27',
+    'mtime' => '2007-06-06',
+    'sha256' => '3768a7f8cf749552a7c313cd16e2e49c7a431bf072c7d49634147b67e957bdc0',
+    'sha256-ungz' => '45d2e240698b46c72290a2d9af42ac9fc1dfcaca0abe63fd9e299bf5ac38debb',
+    'size' => '10420'
+  },
+  'Graphics-GnuplotIF-1.3.0.meta' => {
+    'md5' => '5c4ec737b122e0fb4d40deb56b9d7ed2',
+    'mtime' => '2007-10-13',
+    'sha256' => '667d2309f15b9ad60b61a4a45b22350bd3f22a30c4db13101664f15fe15bdc4e',
+    'size' => '395'
+  },
+  'Graphics-GnuplotIF-1.3.0.tar.gz' => {
+    'md5' => 'c8fbc00713134511e67566b35d9fb196',
+    'md5-ungz' => '28a0068362633979818af280612428a4',
+    'mtime' => '2007-10-19',
+    'sha256' => 'a094d1ae29bd2a8d0a8176ff6bd67fd7398a0f6e05b8c576710c05d5e5025060',
+    'sha256-ungz' => '61a52149438b962776b8b69b9780ce78704342b1501f25f3511b3d883a086f50',
+    'size' => '9254'
+  },
+  'Graphics-GnuplotIF-1.4.meta' => {
+    'md5' => '11a3f5a7bd47a21701b15b0231bebfa2',
+    'mtime' => '2007-12-12',
+    'sha256' => '26521223df2e041354970204bdc74560319ae4c6d1e28ffa958fc7762d9a575d',
+    'size' => '393'
+  },
+  'Graphics-GnuplotIF-1.4.tar.gz' => {
+    'md5' => '06c370d8eafaae75235de6517ae94c0d',
+    'md5-ungz' => '0e537ba87bc87cc2ccb27940db117330',
+    'mtime' => '2007-12-12',
+    'sha256' => '5f6764c47b93e354f7f4876ee3946a1ad6e08a62705ef8803385ff2c6f59c642',
+    'sha256-ungz' => '84bec0b1f43a172ff11d6dc673ae9a3c6e8289d7f3309e938d93074172cbc1bb',
+    'size' => '12929'
+  },
+  'Graphics-GnuplotIF-1.5.meta' => {
+    'md5' => 'c8496f64e042755bc5b9667e0ea38518',
+    'mtime' => '2008-06-11',
+    'sha256' => '7196139c3de7cd1190dbc476442315959f4b0e29eb8ee05593040939b1a4bab0',
+    'size' => '496'
+  },
+  'Graphics-GnuplotIF-1.5.tar.gz' => {
+    'md5' => 'ee15c84470f2186fdb85f52f09bce640',
+    'md5-ungz' => 'a0701259d861d81e7093d570a361051d',
+    'mtime' => '2008-06-11',
+    'sha256' => 'c405dc915df59b2edbb41f618279d39eccbad49c1c75edbfa71736721a06fd42',
+    'sha256-ungz' => '57486a2daa71672518ed42a7cdc2eb2d78e70ba5e37ddb764c27d6b1e3b80208',
+    'size' => '14552'
+  },
+  'Graphics-GnuplotIF-1.6.meta' => {
+    'md5' => 'f2ef4fcb67f71ae748cac03171d4b3e6',
+    'mtime' => '2011-03-03',
+    'sha256' => 'fed962d834167b77a8171050e96445eef59e71ecce24e4db44bd3ea15a4fa470',
+    'size' => '586'
+  },
+  'Graphics-GnuplotIF-1.6.tar.gz' => {
+    'md5' => '53f80914a8729c554219a780a46205e4',
+    'md5-ungz' => '9bd1034688f9f80944ad251bbbbc4daa',
+    'mtime' => '2011-03-03',
+    'sha256' => '049fcce25cc7db41f5f87bd93732de6d8f90463d4dc8a151b2def33b20328d62',
+    'sha256-ungz' => '1a258e0b5c812e610d40c7745514e2a894b0d9e3edc5e5f6af5664168b59eda9',
+    'size' => '14657'
+  },
+  'Graphics-GnuplotIF-1.7.meta' => {
+    'md5' => '8baf47682d7fa190d7219aba511a43dd',
+    'mtime' => '2011-06-03',
+    'sha256' => '9e442356e6b5eb4ca65f27af6ac58f1368424a77e22ec0551e45de738e74e369',
+    'size' => '586'
+  },
+  'Graphics-GnuplotIF-1.7.tar.gz' => {
+    'md5' => '898c0ae3485ee8eeb3be22a9d7ef3ed4',
+    'md5-ungz' => 'e699c53470ce22a38fe982a9738589ce',
+    'mtime' => '2011-06-03',
+    'sha256' => '31abdc8ebcf50a53674e5f19ccd14764bff9049a60f44ee42d3dfba75d659f66',
+    'sha256-ungz' => '6e7316ae48ac2ef06e195507ef27cd2ffdf643689f3dc57455ba08e09e51e39d',
+    'size' => '15017'
+  },
+  'Graphics-GnuplotIF-v1.2.0.meta' => {
+    'md5' => 'e108e8dd9e4710af760c8805c5ef11de',
+    'mtime' => '2007-06-07',
+    'sha256' => '4cb75245875360205809f8a909439ba303eb8c413a22e327f66b9c34177fa60b',
+    'size' => '396'
+  },
+  'Graphics-GnuplotIF-v1.2.0.tar.gz' => {
+    'md5' => '08fa0123ac3cf49858dc302303a8d78c',
+    'md5-ungz' => '575a62107fc086c82e62574d618c48c2',
+    'mtime' => '2007-06-07',
+    'sha256' => '45c569f5bdb3bd7b28d80d7350982b407a30fc2ac3d6d412f147dadcaadfa74b',
+    'sha256-ungz' => '7d7438f0c09bfe55781d9573297cb31eff3e2a7a038590498d44b3e050a85cc1',
+    'size' => '8559'
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAk/MSo8ACgkQMo2oZ0UPiexOQACff2l0w+u02hIDVrBLaqzox+sX
+0qgAn2jUNsdaEdTRY0rOGDQFwTZ5hMBb
+=1p97
+-----END PGP SIGNATURE-----

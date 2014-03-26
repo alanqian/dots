@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="height" mtime="1371184746" type="int" value="300"/>
+	<entry name="width" mtime="1371184746" type="int" value="400"/>
+	<entry name="map_sort_order_column" mtime="1371183492" type="int" value="0"/>
+	<entry name="map_sort_order" mtime="1371183492" type="int" value="0"/>
+</gconf>

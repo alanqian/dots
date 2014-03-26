@@ -1,0 +1,53 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Log::Log4perl
+  CHECKSUM_STATUS: OK
+  ID: M/MS/MSCHILLI/Log-Log4perl-1.36.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: MSCHILLI
+  archived: tar
+  build_dir: /home/alan/.cpan/build/Log-Log4perl-1.36-zu7BJP
+  incommandcolor: 1
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1331864946
+  localfile: /home/alan/.cpan/sources/authors/id/M/MS/MSCHILLI/Log-Log4perl-1.36.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1331864909
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1331864938
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires: ~
+    requires:
+      File::Spec: 0.82
+      Test::More: 0.45
+  reqtype: c
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1331864907
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1331864908
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1315297348
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.12.4
+time: 1331864946

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="toolbar" mtime="1392885265" type="bool" value="true"/>
+	<entry name="statusbar" mtime="1392885265" type="bool" value="true"/>
+	<entry name="scroll_buttons" mtime="1336379208" type="bool" value="true"/>
+	<entry name="propsdialog_netbook_mode" mtime="1336379208" type="bool" value="true"/>
+	<entry name="image_collection_resizable" mtime="1336379208" type="bool" value="false"/>
+	<entry name="image_collection_position" mtime="1336379208" type="string">
+		<stringvalue>bottom</stringvalue>
+	</entry>
+	<entry name="filechooser_xdg_fallback" mtime="1336379208" type="bool" value="true"/>
+	<entry name="disable_trash_confirmation" mtime="1336379208" type="bool" value="false"/>
+	<entry name="sidebar" mtime="1395193920" type="bool" value="false"/>
+	<entry name="image_collection" mtime="1395193920" type="bool" value="false"/>
+</gconf>

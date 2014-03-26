@@ -1,0 +1,62 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: C/CH/CHORNY/Test-Warn-0.24.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: C/CH/CHORNY/Test-Warn-0.24.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: CHORNY
+  archived: tar
+  badtestcnt: 1
+  build_dir: /home/alan/.cpan/build/Test-Warn-0.24-7g4PaB
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1345534889
+  localfile: /home/alan/.cpan/sources/authors/id/C/CH/CHORNY/Test-Warn-0.24.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1345534886
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: 1
+    TEXT: FAILED but failure ignored because 'force' in effect
+    TIME: 1345534887
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      File::Spec: 0
+      Test::More: 0
+    requires:
+      Carp: 1.22
+      Sub::Uplevel: 0.12
+      Test::Builder: 0.13
+      Test::Builder::Tester: 1.02
+      Tree::DAG_Node: 1.02
+      perl: 5.006
+  reqtype: b
+  sponsored_mods:
+    Carp: 2
+    Tree::DAG_Node: 2
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1345534881
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1345534881
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1332523763
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1345534889

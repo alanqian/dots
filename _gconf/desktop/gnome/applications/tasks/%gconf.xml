@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="needs_term" mtime="1336379205" type="bool" value="false"/>
+	<entry name="exec" mtime="1336379205" type="string">
+		<stringvalue>evolution</stringvalue>
+	</entry>
+</gconf>

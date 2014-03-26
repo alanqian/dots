@@ -1,0 +1,11 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Wed May 02 14:26:03 CST 2012
+http\://repository.springsource.com/maven/bundles/release/.error=
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1335939963048
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://repository.springsource.com/maven/bundles/snapshot/.error=
+http\://repository.springsource.com/maven/bundles/snapshot/.lastUpdated=1335939961338
+http\://repository.springsource.com/maven/bundles/milestone/.error=
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1335939960030
+http\://repository.springsource.com/maven/bundles/milestone/.lastUpdated=1335939960679
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1335939959370

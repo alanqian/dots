@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="pref_subp" mtime="1382619135" type="int" value="25966"/>
+	<entry name="tmp_dir" mtime="1383316945" type="string">
+		<stringvalue>/tmp</stringvalue>
+	</entry>
+	<entry name="output_dir" mtime="1383316945" type="string">
+		<stringvalue>/home/alan</stringvalue>
+	</entry>
+	<entry name="chapter_lang" mtime="1382619014" type="int" value="25966"/>
+	<entry name="pref_audio" mtime="1382619014" type="int" value="25966"/>
+</gconf>

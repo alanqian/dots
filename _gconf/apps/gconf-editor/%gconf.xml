@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="recents" mtime="1357090711" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/apps/nm-applet/disable-wifi-create</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/nm-applet/disable-connected-notifications</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/nm-applet/disable-disconnected-notifications</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/nm-applet/disable-vpn-notifications</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/nm-applet/show-applet</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/nm-applet/suppress-wireless-networks-available</stringvalue>
+		</li>
+	</entry>
+</gconf>

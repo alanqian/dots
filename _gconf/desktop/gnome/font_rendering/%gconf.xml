@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="rgba_order" mtime="1336379208" type="string">
+		<stringvalue>rgb</stringvalue>
+	</entry>
+	<entry name="antialiasing" mtime="1336379208" type="string">
+		<stringvalue>rgba</stringvalue>
+	</entry>
+	<entry name="hinting" mtime="1336538937" type="string">
+		<stringvalue>medium</stringvalue>
+	</entry>
+</gconf>

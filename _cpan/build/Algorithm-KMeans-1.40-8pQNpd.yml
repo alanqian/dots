@@ -1,0 +1,53 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: A/AV/AVIKAK/Algorithm-KMeans-1.40.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: A/AV/AVIKAK/Algorithm-KMeans-1.40.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: AVIKAK
+  archived: tar
+  badtestcnt: 1
+  build_dir: /home/alan/.cpan/build/Algorithm-KMeans-1.40-8pQNpd
+  incommandcolor: 1
+  localfile: /home/alan/.cpan/sources/authors/id/A/AV/AVIKAK/Algorithm-KMeans-1.40.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1345168693
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: 1
+    TEXT: NO one dependency not OK (Math::GSL); additionally test harness failed
+    TIME: 1345168693
+  negative_prefs_cache: 0
+  prefs: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      Graphics::GnuplotIF: 1.4
+      Math::GSL: 0.26
+      Math::Random: 0.71
+  reqtype: c
+  sponsored_mods:
+    Graphics::GnuplotIF: 2
+    Math::GSL: 2
+    Math::Random: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1345168607
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1345168607
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1332523763
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1345168693
