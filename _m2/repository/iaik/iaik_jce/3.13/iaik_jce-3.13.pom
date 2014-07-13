@@ -1,6 +1,0 @@
-<project>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>iaik</groupId>
-  <artifactId>iaik_jce</artifactId>
-  <version>3.13</version>
-</project>

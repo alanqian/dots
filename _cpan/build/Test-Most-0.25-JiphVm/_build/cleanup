@@ -1,5 +1,0 @@
-do{ my $x = {
-       'blib' => 1,
-       'Test-Most-*' => 1
-     };
-$x; }

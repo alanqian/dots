@@ -1,7 +1,0 @@
-~$
-\.bak$
-\.gitignore$
-\.git
-Makefile$
-MYMETA\.*
-blib

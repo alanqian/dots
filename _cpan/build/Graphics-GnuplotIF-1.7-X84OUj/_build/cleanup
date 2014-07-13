@@ -1,5 +1,0 @@
-do{ my $x = {
-       'Graphics-GnuplotIF-*' => 1,
-       'blib' => 1
-     };
-$x; }
