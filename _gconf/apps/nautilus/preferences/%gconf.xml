@@ -18,9 +18,9 @@
 			<stringvalue>x-content/audio-player</stringvalue>
 		</li>
 	</entry>
-	<entry name="navigation_window_saved_maximized" mtime="1395716655" type="bool" value="false"/>
-	<entry name="navigation_window_saved_geometry" mtime="1395716655" type="string">
-		<stringvalue>1350x715+328+24</stringvalue>
+	<entry name="navigation_window_saved_maximized" mtime="1411957715" type="bool" value="false"/>
+	<entry name="navigation_window_saved_geometry" mtime="1411957715" type="string">
+		<stringvalue>1350x715+0+306</stringvalue>
 	</entry>
-	<entry name="start_with_sidebar" mtime="1395818081" type="bool" value="true"/>
+	<entry name="start_with_sidebar" mtime="1411958467" type="bool" value="true"/>
 </gconf>

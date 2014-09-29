@@ -20,5 +20,5 @@
 	<entry name="host" mtime="1336379206" type="string">
 		<stringvalue>localhost</stringvalue>
 	</entry>
-	<entry name="use_same_proxy" mtime="1395819376" type="bool" value="false"/>
+	<entry name="use_same_proxy" mtime="1411958660" type="bool" value="false"/>
 </gconf>

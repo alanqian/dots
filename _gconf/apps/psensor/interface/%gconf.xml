@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="window_divider_pos" mtime="1374940666" type="int" value="468"/>
-	<entry name="window_h" mtime="1374940666" type="int" value="200"/>
-	<entry name="window_w" mtime="1374940666" type="int" value="800"/>
-	<entry name="window_y" mtime="1374940666" type="int" value="739"/>
-	<entry name="window_x" mtime="1374940666" type="int" value="0"/>
-	<entry name="window_restore_enabled" mtime="1374940666" type="bool" value="false"/>
-	<entry name="hide_on_startup" mtime="1374940666" type="bool" value="true"/>
-	<entry name="unity_launcher_count_disabled" mtime="1374940666" type="bool" value="false"/>
-	<entry name="menu_bar_disabled" mtime="1374940666" type="bool" value="false"/>
-	<entry name="window_keep_below_enabled" mtime="1374940666" type="bool" value="false"/>
-	<entry name="window_decoration_disabled" mtime="1374940666" type="bool" value="false"/>
-	<entry name="sensorlist_position" mtime="1374940666" type="int" value="0"/>
+	<entry name="window_divider_pos" mtime="1400726273" type="int" value="553"/>
+	<entry name="window_h" mtime="1400726273" type="int" value="409"/>
+	<entry name="window_w" mtime="1400726273" type="int" value="903"/>
+	<entry name="window_y" mtime="1400726273" type="int" value="443"/>
+	<entry name="window_x" mtime="1400726273" type="int" value="86"/>
+	<entry name="window_restore_enabled" mtime="1400726273" type="bool" value="false"/>
+	<entry name="hide_on_startup" mtime="1400726273" type="bool" value="true"/>
+	<entry name="unity_launcher_count_disabled" mtime="1400726273" type="bool" value="false"/>
+	<entry name="menu_bar_disabled" mtime="1400726273" type="bool" value="false"/>
+	<entry name="window_keep_below_enabled" mtime="1400726273" type="bool" value="false"/>
+	<entry name="window_decoration_disabled" mtime="1400726273" type="bool" value="false"/>
+	<entry name="sensorlist_position" mtime="1400726273" type="int" value="0"/>
 </gconf>

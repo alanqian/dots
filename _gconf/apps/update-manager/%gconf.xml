@@ -9,6 +9,6 @@
 	<entry name="check_dist_upgrades" mtime="1336379205" type="bool" value="true"/>
 	<entry name="autoclose_install_window" mtime="1336379205" type="bool" value="true"/>
 	<entry name="first_run" mtime="1336379205" type="bool" value="false"/>
-	<entry name="show_details" mtime="1390354816" type="bool" value="false"/>
-	<entry name="launch_time" mtime="1390354816" type="int" value="1390354816"/>
+	<entry name="show_details" mtime="1405217896" type="bool" value="false"/>
+	<entry name="launch_time" mtime="1405217896" type="int" value="1405217896"/>
 </gconf>

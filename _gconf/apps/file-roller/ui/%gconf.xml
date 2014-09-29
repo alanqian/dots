@@ -4,7 +4,7 @@
 	<entry name="view_statusbar" mtime="1336379207" type="bool" value="true"/>
 	<entry name="view_folders" mtime="1336379207" type="bool" value="false"/>
 	<entry name="history_len" mtime="1336379207" type="int" value="5"/>
-	<entry name="sidebar_width" mtime="1395820473" type="int" value="200"/>
-	<entry name="window_height" mtime="1395820473" type="int" value="715"/>
-	<entry name="window_width" mtime="1395820473" type="int" value="864"/>
+	<entry name="sidebar_width" mtime="1411356604" type="int" value="200"/>
+	<entry name="window_height" mtime="1411356604" type="int" value="715"/>
+	<entry name="window_width" mtime="1411356604" type="int" value="864"/>
 </gconf>

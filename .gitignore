@@ -18,7 +18,6 @@
 /_gconf/apps/empathy/*
 /_gconf/apps/ogmrip/*
 /_shotwell/*
-/_ssh.tgz
 
 /install/pkg/*
 /install/ttf_fonts.tgz
@@ -43,5 +42,4 @@
 */.lock
 
 _bash_history
-_gitconfig
-
+/private/*

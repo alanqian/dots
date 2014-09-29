@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="maximize_horizontally" mtime="1375493624" type="string">
-		<stringvalue>&lt;Alt&gt;Right</stringvalue>
+	<entry name="maximize_horizontally" mtime="1405215082" type="string">
+		<stringvalue>disabled</stringvalue>
 	</entry>
 	<entry name="move_to_corner_ne" mtime="1336438759" type="string">
 		<stringvalue>&lt;Super&gt;KP_Prior</stringvalue>
@@ -30,8 +30,8 @@
 	<entry name="unmaximize" mtime="1336438759" type="string">
 		<stringvalue>&lt;Control&gt;&lt;Primary&gt;&lt;Super&gt;Down</stringvalue>
 	</entry>
-	<entry name="maximize_vertically" mtime="1375493619" type="string">
-		<stringvalue>&lt;Alt&gt;Up</stringvalue>
+	<entry name="maximize_vertically" mtime="1405215082" type="string">
+		<stringvalue>disabled</stringvalue>
 	</entry>
 	<entry name="move_to_workspace_up" mtime="1336438760" type="string">
 		<stringvalue>&lt;Shift&gt;&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;Up</stringvalue>

@@ -10,6 +10,6 @@
 	</entry>
 	<entry name="filechooser_xdg_fallback" mtime="1336379208" type="bool" value="true"/>
 	<entry name="disable_trash_confirmation" mtime="1336379208" type="bool" value="false"/>
-	<entry name="sidebar" mtime="1395193920" type="bool" value="false"/>
-	<entry name="image_collection" mtime="1395193920" type="bool" value="false"/>
+	<entry name="sidebar" mtime="1411958107" type="bool" value="false"/>
+	<entry name="image_collection" mtime="1411958107" type="bool" value="false"/>
 </gconf>

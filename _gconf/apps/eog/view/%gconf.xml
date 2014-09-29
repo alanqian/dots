@@ -8,8 +8,8 @@
 	<entry name="interpolate" mtime="1336379208" type="bool" value="true"/>
 	<entry name="extrapolate" mtime="1336379208" type="bool" value="true"/>
 	<entry name="autorotate" mtime="1336379208" type="bool" value="true"/>
-	<entry name="use-background-color" mtime="1395193920" type="bool" value="true"/>
-	<entry name="background-color" mtime="1395193920" type="string">
+	<entry name="use-background-color" mtime="1411958107" type="bool" value="true"/>
+	<entry name="background-color" mtime="1411958107" type="string">
 		<stringvalue>#000000</stringvalue>
 	</entry>
 </gconf>

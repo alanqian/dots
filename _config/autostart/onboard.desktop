@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/onboard
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=false
+Name[en_US]=onboard
+Name=onboard
+Comment[en_US]=onscreen keyboard
+Comment=onscreen keyboard
