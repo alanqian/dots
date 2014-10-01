@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="exec_arg" mtime="1336379205" type="string">
-		<stringvalue>-x</stringvalue>
-	</entry>
-	<entry name="exec" mtime="1336379205" type="string">
-		<stringvalue>gnome-terminal</stringvalue>
-	</entry>
-</gconf>

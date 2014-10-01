@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="unredirect_driver_blacklist" mtime="1405215068" schema="/schemas/apps/compiz-1/plugins/opengl/screen0/options/unredirect_driver_blacklist"/>
-	<entry name="lighting" mtime="1405215068" schema="/schemas/apps/compiz-1/plugins/opengl/screen0/options/lighting"/>
-	<entry name="texture_filter" mtime="1405215068" schema="/schemas/apps/compiz-1/plugins/opengl/screen0/options/texture_filter"/>
-	<entry name="texture_compression" mtime="1405215068" schema="/schemas/apps/compiz-1/plugins/opengl/screen0/options/texture_compression"/>
-	<entry name="sync_to_vblank" mtime="1405215068" schema="/schemas/apps/compiz-1/plugins/opengl/screen0/options/sync_to_vblank"/>
-</gconf>

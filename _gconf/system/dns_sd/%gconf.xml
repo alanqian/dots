@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="extra_domains" mtime="1336379208" type="string">
-		<stringvalue></stringvalue>
-	</entry>
-	<entry name="display_local" mtime="1336379208" type="string">
-		<stringvalue>merged</stringvalue>
-	</entry>
-</gconf>

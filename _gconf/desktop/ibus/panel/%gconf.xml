@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="use_custom_font" mtime="1374939089" type="bool" value="true"/>
-	<entry name="show_im_name" mtime="1374916524" type="bool" value="true"/>
-	<entry name="show" mtime="1375115075" type="int" value="0"/>
-	<entry name="custom_font" mtime="1406620510" type="string">
-		<stringvalue>Droid Sans 11</stringvalue>
-	</entry>
-</gconf>

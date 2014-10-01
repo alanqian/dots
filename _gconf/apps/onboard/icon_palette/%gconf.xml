@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="vertical_position" mtime="1336379208" type="int" value="40"/>
-	<entry name="horizontal_position" mtime="1336379208" type="int" value="40"/>
-	<entry name="width" mtime="1336379208" type="int" value="64"/>
-	<entry name="in_use" mtime="1336379208" type="bool" value="false"/>
-	<entry name="height" mtime="1336379208" type="int" value="64"/>
-</gconf>

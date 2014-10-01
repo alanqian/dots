@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="speed" mtime="1329899576" type="int" value="120"/>
-	<entry name="punctuation" mtime="1329899575" type="string">
-		<stringvalue>any</stringvalue>
-	</entry>
-</gconf>

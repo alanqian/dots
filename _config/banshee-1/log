@@ -1,8 +1,0 @@
-exec -a banshee mono  /usr/lib/banshee/Banshee.exe    --redirect-log --play-enqueued /home/alan/Books/S8SI95DHF-8.ts
-
-[Info  12:49:43.749] Running Banshee 2.4.1: [Ubuntu 12.04 LTS (linux-gnu, x86_64) @ 2012-07-17 02:26:43 UTC]
-[Info  12:49:44.652] Updating web proxy from GConf
-[Info  12:49:44.885] All services are started 0.903108
-[Info  12:49:45.487] AmazonMP3 store redirect URL: https://one.ubuntu.com/music/store/amz/
-[Info  12:49:45.729] nereid Client Started
-[Info  12:49:45.827] GStreamer version 0.10.36.0, gapless: True, replaygain: False

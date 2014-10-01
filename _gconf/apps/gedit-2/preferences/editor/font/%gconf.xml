@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="editor_font" mtime="1349626603" type="string">
-		<stringvalue>FZBeiWeiKaiShu-S19 13</stringvalue>
-	</entry>
-	<entry name="use_default_font" mtime="1349626988" type="bool" value="true"/>
-</gconf>

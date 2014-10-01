@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="loadExtraItems" mtime="1336379209" type="bool" value="false"/>
-	<entry name="layoutNamesAsGroupNames" mtime="1336379209" type="bool" value="true"/>
-	<entry name="handleIndicators" mtime="1336379209" type="bool" value="false"/>
-	<entry name="groupPerWindow" mtime="1336379209" type="bool" value="false"/>
-	<entry name="defaultGroup" mtime="1336379209" type="int" value="-1"/>
-</gconf>
