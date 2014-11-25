@@ -1,0 +1,13 @@
+-# foo.hamlc
+/begin foo
+#foo
+  - if @cart.length is 0
+    %p.empty Your cart is empty
+  - else
+    %ul
+      - for item in @cart
+        %li
+          .item
+            = item.name
+            %a{ :href => "/cart/item/remove/#{item.id}" } Remove Item
+/end foo

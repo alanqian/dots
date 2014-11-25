@@ -1,0 +1,47 @@
+-# add navigation links to this file
+/ navbar start
+%ul.nav.navbar-nav
+  %li.active
+    -# = link_to 'Home', root_path
+    %a{:href => "/"} Home
+    %span.sr-only (current)
+  %li
+    %a{:href => "#about"} About
+  %li.dropdown
+    %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+      Actions
+      %span.caret
+    %ul.dropdown-menu{:role => "menu"}
+      %li
+        %a{:href => "#"} Action
+      %li
+        %a{:href => "#"} Another action
+      %li
+        %a{:href => "#"} Something else here
+      %li.divider
+      %li.dropdown-header Nav header
+      %li
+        %a{:href => "#"} Separated link
+      %li
+        %a{:href => "#"} One more separated link
+  %form.navbar-form.navbar-left{:role => "search"}
+    .form-group
+      %input.form-control{:placeholder => "Search", :type => "text"}/
+    %button.btn.btn-default{:type => "submit"} Go!
+%ul.nav.navbar-nav.navbar-right
+  %li
+    %a{:href => "#contact"} Contact
+  %li.dropdown
+    %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+      -# %img{:alt => "Setup", :width => 16, :height => 16, :src => ""}
+      Setup
+      %span.caret
+    %ul.dropdown-menu{:role => "menu"}
+      %li
+        %a{:href => "#"} Email...
+      %li
+        %a{:href => "#"} Reset Password
+      %li.divider
+      %li
+        %a{:href => "#"} Logout
+/ navbar end

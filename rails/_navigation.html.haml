@@ -1,0 +1,12 @@
+-# navigation styled for Bootstrap 3.0
+%nav.navbar.navbar-default.navbar-fix-top{:role => "navigation"}
+  .container
+    .navbar-header
+      %button.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{:href => "#"} Project name
+    #navbar.navbar-collapse.collapse
+      = render 'layouts/navbar'

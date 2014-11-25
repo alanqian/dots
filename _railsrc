@@ -1,0 +1,13 @@
+--template=/home/dots/rails/template.rb
+--no-skip-gemfile
+--skip-bundle
+--skip-git
+--no-skip-keeps
+--no-skip-active-record
+--no-skip-action-view
+--no-skip-sprockets
+--no-skip-spring
+--database=mysql
+--javascript=jquery
+--no-skip-javascript
+--skip-test-unit
