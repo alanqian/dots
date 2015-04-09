@@ -1,1 +1,2 @@
+export BASH_RC=${BASH_RC}:.bash_profile
 source "$HOME/.bashrc"
