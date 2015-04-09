@@ -77,7 +77,6 @@ else
 fi
 
 echo Install vim addons...
-for addon in "${bundles[@]}"; do
     git="https://github.com/$addon"
     name=$(echo $addon | sed -e 's".*/""')
     dir="${bundle_dir}/$name"

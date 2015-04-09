@@ -1,18 +1,15 @@
-" use visual bell instead of beeping
-setlocal vb
-
-" incremental search
-setlocal incsearch
-
 " syntax highlighting
 setlocal bg=light
-syntax on
 
 " autoindent
-setlocal autoindent|setlocal smartindent
+setlocal autoindent
+setlocal smartindent
 
 " 4 space tabs
-setlocal tabstop=4|setlocal shiftwidth=4|setlocal expandtab|setlocal softtabstop=4
+setlocal tabstop=4
+setlocal softtabstop=4
+setlocal shiftwidth=4
+setlocal expandtab
 
 " show matching brackets
 setlocal showmatch
@@ -41,8 +38,8 @@ nmap <s-tab> ^i<bs><esc>
 set pastetoggle=<F11>
 
 " comment/uncomment blocks of code (in vmode)
-vmap _c :s/^/#/gi<Enter>
-vmap _C :s/^#//gi<Enter>
+vmap <leader>c :s/^/#/gi<Enter>
+vmap <leader>C :s/^#//gi<Enter>
 
 " my perl includes pod
 let perl_include_pod = 1
@@ -51,11 +48,10 @@ let perl_include_pod = 1
 let perl_extended_vars = 1
 
 " Tidy selected lines (or entire file) with _t:
-nnoremap <silent> _t :%!perltidy -q<Enter>
-vnoremap <silent> _t :!perltidy -q<Enter>
-
+nnoremap <silent> <leader>t :%!perltidy -q<Enter>
+vnoremap <silent> <leader>T :!perltidy -q<Enter>
 
 " Deparse obfuscated code
-nnoremap <silent> _d :.!perl -MO=Deparse 2>/dev/null<cr>
-vnoremap <silent> _d :!perl -MO=Deparse 2>/dev/null<cr>
+nnoremap <silent> <leader>d :.!perl -MO=Deparse 2>/dev/null<cr>
+vnoremap <silent> <leader>D :!perl -MO=Deparse 2>/dev/null<cr>
 

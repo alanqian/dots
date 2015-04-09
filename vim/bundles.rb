@@ -12,12 +12,15 @@ git_bundles = [
     # Fast editing,
     "tpope/vim-surround",
     "scrooloose/nerdcommenter",
+    "alanqian/vim-template", # "aperezdc/vim-template",
     #"kana/vim-smartinput", noised input
     # IDE features,
     "scrooloose/nerdtree",
+    "kien/ctrlp.vim",
     "majutsushi/tagbar",
     "tpope/vim-fugitive",
-    "scrooloose/syntastic",
+    #"scrooloose/syntastic",   # slow!
+    "vim-scripts/cscope-quickfix",
     # Syntax/Indent for language enhancement,
     # web front end,
     "othree/html5.vim",
@@ -28,10 +31,16 @@ git_bundles = [
     "tpope/vim-rails",
     # markup language,
     "tpope/vim-markdown",
+    "tpope/vim-haml",
     # Ruby,
     "tpope/vim-ruby",
     "tpope/vim-endwise",
-    "janx/vim-rubytest"
+    # rspec/cucumber
+    "thoughtbot/vim-rspec", # "janx/vim-rubytest"
+    "tpope/vim-cucumber",
+    # docs: zeal, dash
+    "KabbAmine/zeavim.vim",
+    "rizzatti/dash.vim",
     # Scheme,
     "kien/rainbow_parentheses.vim",
     "wlangstroth/vim-racket",
@@ -43,11 +52,10 @@ git_bundles = [
     # Misc,
     "mrtazz/DoxygenToolkit.vim",
     "vim-scripts/vimwiki",
-    "bouzuya/vim-ibus"
 
     # obsoluted
+    # "bouzuya/vim-ibus"
     # "leshill/vim-json",
-    # "aperezdc/vim-template",
     # "astashov/vim-ruby-debugger",
 ]
 
@@ -71,7 +79,7 @@ git_bundles.each do |addon|
   url = "git://github.com/#{addon}.git"
   puts "unpacking #{url} into #{dir}"
   `git clone #{url} #{dir}`
-  FileUtils.rm_rf(File.join(dir, ".git"))
+  #FileUtils.rm_rf(File.join(dir, ".git"))
 end
 
 vim_org_scripts.each do |name, script_id, script_type|
