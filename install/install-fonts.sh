@@ -19,6 +19,8 @@ sudo apt-get install ttf-takao-mincho
 fc-cache -fv
 exit 0
 
+sudo rm -rf /usr/share/fonts/truetype/arphic
+
 sudo apt-get remove ttf-mscorefonts-installer
 sudo apt-get remove ttf-wqy-zenhei
 sudo tar xf ttf_fonts.tgz -C /usr/share/fonts/truetype/

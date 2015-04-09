@@ -1,10 +1,14 @@
 sudo apt-get purge openjdk
-sudo apt-get install oracle-java6-installer
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+# NEED confirm
 sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
 exit 0
 
+sudo apt-get install oracle-java6-installer
+
 # install oracle java7
-sudo add-apt-repository ppa:webupd8team/java
 # sudo add-apt-repository ppa:eugenesan/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer

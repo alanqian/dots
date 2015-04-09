@@ -1,7 +1,8 @@
 ########################################################################
-# install restricted ...
+# install restricted, need confirm...
 sudo apt-get -y install ubuntu-restricted-extras
-# Install mailutils
+
+# Install mailutils: need confirm
 sudo apt-get -y install mailutils
 
 # install aptitude synaptic
@@ -26,8 +27,8 @@ sudo apt-get -y install fontforge gnome-specimen
 sudo apt-get -y install imagemagick gimp graphviz gnuplot
 # install dia
 sudo apt-get -y install dia-gnome dia-common dia-libs
-# install pdfedit
-sudo apt-get -y install pdfedit
+# install pdfedit, pdftk
+sudo apt-get -y install pdfedit pdftk
 
 sudo apt-get -y install antiword unoconv aspell
 sudo apt-get -y install rar unrar p7zip
@@ -41,6 +42,8 @@ sudo apt-get -y install gtg rednotebook calibre chmsee
 
 # Install stardict
 sudo apt-get -y install stardict
+# patch stardict: remove tts engine which does not work!
+sudo rm /usr/lib/stardict/plugins/stardict_festival.so
 
 # libreoffice langpack
 sudo apt-get -y install libreoffice-l10n-zh-cn libreoffice-l10n-zh-tw
@@ -72,10 +75,13 @@ sudo apt-get -y install startupmanager
 # Install bootup manager
 sudo apt-get -y install bum
 
-# Install isomaster, vbox, etc
+# Install isomaster, gparted
 sudo apt-get -y install isomaster
-sudo apt-get -y install virtualbox-ose
 sudo apt-get -y install gparted
+
+# Install virtual box
+sudo apt-get -y install virtualbox
+sudo usermod -a -G vboxusers $USER
 
 # psensor
 sudo apt-get -y install hddtemp lm-sensors psensor
@@ -96,7 +102,7 @@ sudo apt-get -y install ubuntu-tweak
 sudo apt-get -y install compizconfig-settings-manager
 sudo apt-get -y install gconf-editor
 
-sudo apt-get -y install gnome-tweak-tool
+sudo apt-get -y install gnome-tweak-tool unity-tweak-tool
 sudo apt-get -y install dconf-tools
 
 ########################################################################
@@ -124,9 +130,10 @@ sudo apt-get -y install dos2unix convmv
 # uconv
 sudo apt-get -y install libicu-dev
 
+sudo apt-get -y install build-essential dpkg-dev zlib1g-dev libpcre3 libpcre3-dev unzip
 sudo apt-get -y install build-essential libtool autoconf automake
 sudo apt-get -y install clang flex bison gccxml
-sudo apt-get -y install cvs subversion git git-flow git-review
+sudo apt-get -y install cvs subversion git git-flow git-review tig gitg
 sudo apt-get -y install sqlite3
 sudo apt-get -y install astyle indent tidy
 sudo apt-get -y install perl-doc perltidy
@@ -137,12 +144,19 @@ sudo apt-get -y install manpages-posix manpages-posix-dev
 sudo apt-get -y install valgrind
 sudo apt-get -y install lcov
 sudo apt-get -y install coffeescript
+sudo apt-get -y install nodejs npm
+sudo npm install jasmine-node
 
 sudo apt-get -y install regexxer sqlitebrowser
 sudo apt-get -y install eclipse-cdt eclipse-jdt eclipse-egit
 sudo apt-get -y install kompozer bluefish
 
 sudo pip install -U https://github.com/jkbr/httpie/tarball/master
+
+sudo add-apt-repository ppa:jerzy-kozera/zeal-ppa
+sudo apt-get update
+sudo apt-get install zeal
+
 
 # xsel
 sudo apt-get -y install xsel tree fdupes sl
@@ -170,7 +184,6 @@ sudo apt-get -y install kigo
 
 # share keyboard/mouse with another computer
 sudo apt-get -y install synergy quicksynergy
-
 
 
 # sudo apt-get -y install vsftpd
@@ -223,6 +236,7 @@ sudo apt-get -y install synergy quicksynergy
 # 将当前用户添加到vboxusers组下.
 # 可以编辑 /etc/group 文件,也可以用groupadd命令.甚至可以点系统--系统管理--用户和组来配置.
 # 重启Ubuntu
+#
 #
 # 注意,需要顺序的操作来了!!
 # 查看hald是否已经在运行

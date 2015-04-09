@@ -1,0 +1,59 @@
+source 'http://ruby.taobao.org'
+
+# rails
+gem 'rails', '4.1.6'
+gem 'sinatra'
+
+# models + data-format
+gem 'mysql2'
+gem 'sqlite3'
+gem 'roo'
+gem 'spreadsheet'
+gem 'activerecord'
+gem 'rubyzip'
+
+# awesome irb plugins
+gem 'wirble'
+gem 'bond'
+gem 'sketches'
+gem 'boson'
+gem 'hirb'
+gem 'ori'
+gem 'awesome_print'
+gem 'map_by_method'
+gem 'what_methods'
+
+# html/xml parser, pdf writer/parser
+gem 'nokogiri'
+gem 'prawn'
+gem 'pdf-reader'
+
+# deploy
+gem 'sshkit'
+gem 'bundler'
+gem 'capistrano'
+gem 'capistrano-bundler'
+gem 'capistrano-rails'
+gem 'capistrano-rbenv'
+
+# test
+gem 'rspec'
+gem 'rspec-rails'
+gem 'rspec-support'
+gem 'cucumber'
+gem 'factory_girl'
+gem 'factory_girl_rails'
+gem 'capybara'
+gem 'data_fabric'
+gem 'faker'
+gem 'forgery'
+
+# coffee
+gem 'coffee-script'
+gem 'hanzi_to_pinyin'
+gem 'httpclient'
+gem 'rest_client'
+
+# pry
+gem 'pry'
+gem 'pry-nav'

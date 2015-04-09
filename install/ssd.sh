@@ -32,6 +32,16 @@ hdparm -I /dev/sda
 mount -oremount /dev/sda1
 
 # edit /etc/rc.local
-# echo noop > /sys/block/sda/queue/scheduler
+#for d in sda sdb sdc; do
+#  f="/sys/block/$d/queue/rotational"
+#  if [ -f $f ] && [ $(cat $f) == '0' ]; then
+#    # this is ssd, using noop scheduler
+#    echo noop > /sys/block/$d/queue/scheduler
+#  fi
+#done
+#exit 0
 
+# http://bernaerts.dyndns.org/linux/74-ubuntu/250-ubuntu-tweaks-ssd
 
+fstrim -v /
+fstrim -v /home
